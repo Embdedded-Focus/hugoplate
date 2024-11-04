@@ -1,0 +1,27 @@
+---
+main:
+  - name: Zhaus
+    url: /
+    weight: 1
+  - name: Über
+    url: /about
+    weight: 2
+  - name: Elemente
+    url: /elements
+    weight: 3
+  - name: Blog
+    url: /blog
+    weight: 4
+  - name: Contact
+    url: /contact
+    weight: 5
+footer:
+  - name: About
+    url: /about
+    weight: 1
+  - name: Elements
+    url: /elements
+    weight: 2
+  - name: Privacy Policy
+    url: /privacy-policy
+    weight: 3
