@@ -3,7 +3,7 @@ hugoVersion:
   extended: true
   min: 0.134.3
 imports:
-- path: github.com/zeon-studio/hugoplate
+- path: ../..
 - path: github.com/gethugothemes/hugo-modules/search
 - path: github.com/gethugothemes/hugo-modules/pwa
 - path: github.com/gethugothemes/hugo-modules/images
