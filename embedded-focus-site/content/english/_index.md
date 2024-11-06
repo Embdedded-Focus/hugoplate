@@ -1,16 +1,16 @@
 ---
 banner:
   title: "Embedded Focus"
-  content: "We support our clients in making their embedded software development more efficient, sustainable, and secure through technical measures."
-  image: "/images/banner.png"
+  content: "Concept - Implementation - Training"
+  slogan: Efficient and Secure CI/CD for Embedded Systems
   button:
-    enable: false
-    label: "Hier entlang!"
-    link: "https://github.com/zeon-studio/hugoplate"
+    enable: true
+    label: "Example Projects"
+    link: "/blog"
 
 features:
   - title: "Kennen Sie diese Herausforderungen?"
-    image: "/images/service-1.png"
+    image: "/images/challenges.webp"
     content: "Hugoplate is a comprehensive starter template that includes everything you need to get started with your Hugo project. What's Included in Hugoplate"
     bulletpoints:
       - "10+ Pre-build pages"
