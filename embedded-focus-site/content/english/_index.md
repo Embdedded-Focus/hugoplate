@@ -2,23 +2,25 @@
 banner:
   title: "Embedded Focus"
   content: "Concept - Implementation - Training"
-  slogan: Efficient and Secure CI/CD for Embedded Systems
+  slogan: Efficient and Secure DevOps for Embedded Systems
   button:
     enable: true
-    label: "Example Projects"
-    link: "/blog"
+    label: "Contact"
+    link: "/contact"
 
 features:
-  - title: "Kennen Sie diese Herausforderungen?"
-    image: "/images/challenges.webp"
-    content: "Hugoplate is a comprehensive starter template that includes everything you need to get started with your Hugo project. What's Included in Hugoplate"
+  - title: "Are these your daily struggles?"
+    image: "/images/challenges.jpg"
+    content: ""
+    icon: fa-road-barrier
+    padding: 8
     bulletpoints:
-      - "10+ Pre-build pages"
-      - "95+ Google Pagespeed Score"
-      - "Build with Hugo and TailwindCSS for easy and customizable styling"
-      - "Fully responsive on all devices"
-      - "SEO-optimized for better search engine rankings"
-      - "**Open-source and free** for personal and commercial use"
+      - "“I have no idea where we are in the development process. This leads to misunderstandings and shows that we urgently need more structure and clarity.”"
+      - "“There are parts of the code that are so fragile, we don’t dare to touch them.”"
+      - "“Our outdated processes are frustrating the best people. If we don’t modernize, we’ll lose know-how and innovation power.”"
+      - "“Our variants and dependencies constantly cause problems. It feels like we’re fixing more issues than we are developing.”"
+      - "“It takes too long to fix errors or security problems, and it’s damaging our reputation.”"
+      - "“Reproducing errors takes forever because everyone is working with slightly different setups.”"
     button:
       enable: false
       label: "Get Started Now"

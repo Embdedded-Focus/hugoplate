@@ -2,9 +2,9 @@
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
 <svg
-   width="817.28198mm"
-   height="150mm"
-   viewBox="0 0 817.28199 150"
+   width="816.25555mm"
+   height="147.94724mm"
+   viewBox="0 0 816.25556 147.94724"
    version="1.1"
    id="svg5"
    inkscape:version="1.2.2 (b0a8486541, 2022-12-01)"
@@ -22,14 +22,14 @@
      bordercolor="#000000"
      borderopacity="0.25"
      inkscape:showpageshadow="2"
-     inkscape:pageopacity="0.0"
+     inkscape:pageopacity="0"
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="mm"
      showgrid="false"
-     inkscape:zoom="0.41010417"
-     inkscape:cx="1238.7097"
-     inkscape:cy="-52.425704"
+     inkscape:zoom="1.1599498"
+     inkscape:cx="657.35606"
+     inkscape:cy="196.12918"
      inkscape:window-width="3438"
      inkscape:window-height="1390"
      inkscape:window-x="0"
@@ -42,25 +42,21 @@
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(-40,-80)">
+     transform="translate(-41.026382,-81.026382)">
     <g
-       id="g3453">
-      <g
-         id="g3246"
-         transform="translate(0.97654474,-1.21477)">
-        <circle
-           style="fill:#000000;fill-opacity:1;stroke:#ffffff;stroke-width:2.05276;stroke-dasharray:none;stroke-opacity:1"
-           id="path3130"
-           cx="114.02345"
-           cy="156.21477"
-           r="73.973618" />
-        <circle
-           style="fill:#000000;fill-opacity:1;stroke:#ffffff;stroke-width:5;stroke-dasharray:none;stroke-opacity:1"
-           id="path234"
-           cx="114.02345"
-           cy="156.21477"
-           r="17.681042" />
-      </g>
+       id="g1731">
+      <circle
+         style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:2.05276;stroke-dasharray:none;stroke-opacity:1"
+         id="path3130"
+         cx="115"
+         cy="155"
+         r="73.973618" />
+      <circle
+         style="fill:#000000;fill-opacity:1;stroke:#ffffff;stroke-width:5;stroke-dasharray:none;stroke-opacity:1"
+         id="path234"
+         cx="115"
+         cy="155"
+         r="17.681042" />
       <circle
          style="fill:#000000;fill-opacity:1;stroke:#ffffff;stroke-width:5;stroke-dasharray:none;stroke-opacity:1"
          id="circle3242"

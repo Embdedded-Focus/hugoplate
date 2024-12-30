@@ -2,31 +2,34 @@
 banner:
   title: "Embedded Focus"
   content: "Konzeption - Umsetzung - Training"
-  slogan: Effizientes und sicheres CI/CD für eingebettete Systeme
+  slogan: Effizientes und sicheres DevOps für Embedded Systems
   button:
     enable: true
-    label: "Beispielprojekte"
-    link: "/blog"
+    label: "Kontakt"
+    link: "/contact"
 
 features:
-  - title: "Kennen Sie diese Herausforderungen?"
-    image: "/images/challenges.webp"
-    content: "Hugoplate is a comprehensive starter template that includes everything you need to get started with your Hugo project. What's Included in Hugoplate"
+  - title: "Kommen Dir diese Herausforderungen bekannt vor?"
+    image: "/images/challenges.jpg"
+    content: ""
+    icon: fa-road-barrier
+    padding: 8
     bulletpoints:
-      - "10+ Pre-build pages"
-      - "95+ Google Pagespeed Score"
-      - "Build with Hugo and TailwindCSS for easy and customizable styling"
-      - "Fully responsive on all devices"
-      - "SEO-optimized for better search engine rankings"
-      - "**Open-source and free** for personal and commercial use"
+      - "„Ich habe keine Ahnung, wo wir im Entwicklungsprozess stehen. Das führt zu Missverständnissen und zeigt, dass wir dringend mehr Struktur und Übersicht brauchen.“"
+      - "„Es gibt Code-Stellen, die so fragil sind, dass wir uns nicht trauen, sie anzufassen.“"
+      - "„Unsere alten Prozesse machen die besten Leute unzufrieden. Wenn wir uns nicht modernisieren, verlieren wir Know-how und Innovationskraft.“"
+      - "„Unsere Varianten und Abhängigkeiten führen ständig zu Problemen. Es fühlt sich an, als würden wir mehr reparieren als entwickeln.“"
+      - "„Es dauert zu lange, Fehler oder Sicherheitsprobleme zu beheben, und das gefährdet unser Image.“"
+      - "„Fehler nachzustellen dauert ewig, weil jeder mit leicht unterschiedlichen Setups arbeitet.“"
     button:
       enable: false
       label: "Get Started Now"
       link: "#"
 
-  - title: "Discover the Key Features Of Hugo"
+  - title: "Wie Du mit uns nachhaltige Ergebnisse erzielst"
     image: "/images/service-2.png"
     content: "Hugo is an all-in-one web framework for building fast, content-focused websites. It offers a range of exciting features for developers and website creators. Some of the key features are:"
+    icon: fa-rocket
     bulletpoints:
       - "Zero JS, by default: No JavaScript runtime overhead to slow you down."
       - "Customizable: Tailwind, MDX, and 100+ other integrations to choose from."
