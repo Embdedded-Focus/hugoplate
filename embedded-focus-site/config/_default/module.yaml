@@ -1,7 +1,7 @@
 ---
 hugoVersion:
   extended: true
-  min: 0.134.3
+  min: 0.139.2
 imports:
 - path: ../..
 - path: github.com/gethugothemes/hugo-modules/search
