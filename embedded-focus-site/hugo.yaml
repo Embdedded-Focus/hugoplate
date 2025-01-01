@@ -10,8 +10,6 @@ defaultContentLanguageInSubdir: false
 services:
   googleAnalytics:
     ID: G-MEASUREMENT_ID
-  disqus:
-    shortname: themefisher-template
 permalinks:
   page:
     pages: /:slugorfilename/
