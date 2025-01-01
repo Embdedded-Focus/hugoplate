@@ -15,7 +15,8 @@ contact_form_action: '#'
 google_tag_manager: ""
 google_adsense: ""
 custom_script: ""
-copyright: Designed & Developed by [Zeon Studio](https://zeon.studio)
+copyright: >-
+  Copyright © 2025 Rainer Poisel. All rights reserved. Theme by <a href="https://github.com/zeon-studio/hugoplate">zeon-studio</a>.
 preloader:
   enable: false
   preloader: ""
