@@ -1,9 +1,13 @@
 ---
-title: "Hi, ich bin der John Doe!"
+title: "Über Mich"
 meta_title: "Über"
 description: "this is meta description"
 image: "/images/avatar.png"
 draft: false
 ---
 
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis illum nesciunt commodi vel nisi ut alias excepturi ipsum, totam, labore tempora, odit ex iste tempore sed. Fugit voluptatibus perspiciatis assumenda nulla ad nihil, omnis vel, doloremque sit quam autem optio maiores, illum eius facilis et quo consectetur provident dolor similique! Enim voluptatem dicta expedita veritatis repellat dolorum impedit, provident quasi at.
+Ich bin spezialisiert darauf, Entwicklungsprozesse in der Embedded-Softwarebranche effizienter, skalierbarer und sicherer zu gestalten. Mit umfassender Expertise in **Embedded CI/CD**, **Software-Entwicklung** und **Prozessautomatisierung** unterstütze ich Unternehmen dabei, ihre Entwicklungszyklen zu optimieren und zukunftssicher aufzustellen. Mein Wissen in sicherheits- und schutzkritischen Anwendungen (z. B. **IEC 62443**) sowie in modernen Technologien wie **Rust**, **Docker** und **GitOps** ermöglicht maßgeschneiderte Lösungen, die sowohl die Betriebssicherheit als auch den Schutz vor Bedrohungen gewährleisten, Innovationen fördern und Kosten senken.
+
+Ob Analyse und Modernisierung bestehender Prozesse, Aufbau neuer CI/CD-Pipelines oder gezielte Schulungen – ich lege Wert auf nachhaltige Ergebnisse, die sich messen lassen. Mein Ansatz ist pragmatisch, wirtschaftlich und darauf ausgerichtet, Teams zu stärken, Risiken zu minimieren und Unternehmen langfristig zum Erfolg zu führen.
+
+**Gemeinsam machen wir Ihre Embedded-Entwicklung fit für die Zukunft.**

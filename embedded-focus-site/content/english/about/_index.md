@@ -1,9 +1,13 @@
 ---
-title: "Hey, I am John Doe!"
+title: "About  Me"
 meta_title: "About"
 description: "this is meta description"
 image: "/images/avatar.png"
 draft: false
 ---
 
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis illum nesciunt commodi vel nisi ut alias excepturi ipsum, totam, labore tempora, odit ex iste tempore sed. Fugit voluptatibus perspiciatis assumenda nulla ad nihil, omnis vel, doloremque sit quam autem optio maiores, illum eius facilis et quo consectetur provident dolor similique! Enim voluptatem dicta expedita veritatis repellat dolorum impedit, provident quasi at.
+I specialize in making development processes in the embedded software industry more efficient, scalable, and secure. With extensive expertise in **Embedded CI/CD**, **software development**, and **process automation**, I help companies optimize their development cycles and prepare for the future. Mz knowledge of safety and security-critical applications (e.g., **IEC 62443**) and modern technologies such as **Rust**, **Docker**, and **GitOps** enables tailored solutions that foster innovation and reduce costs.
+
+Whether it’s analyzing and modernizing existing processes, building new CI/CD pipelines, or providing targeted training, I focus on delivering measurable and sustainable results. My approach is pragmatic, cost-effective, and designed to empower teams, minimize risks, and guide companies toward long-term success.
+
+**Together, we shape the future of your embedded development.**
