@@ -9,16 +9,16 @@ banner:
     link: "/contact"
 
 features:
-  - title: "Are these your daily struggles?"
+  - title: "Do these challenges sound familiar?"
     image: "/images/challenges.jpg"
     content: ""
     icon: fa-road-barrier
     padding: 8
     bulletpoints:
-      - "“I have no idea where we are in the development process. This leads to misunderstandings and shows that we urgently need more structure and clarity.”"
       - "“There are parts of the code that are so fragile, we don’t dare to touch them.”"
-      - "“Our outdated processes are frustrating the best people. If we don’t modernize, we’ll lose know-how and innovation power.”"
       - "“Our variants and dependencies constantly cause problems. It feels like we’re fixing more issues than we are developing.”"
+      - "“I have no idea where we are in the development process. This leads to misunderstandings and shows that we urgently need more structure and clarity.”"
+      - "“Our outdated processes are frustrating the best people. If we don’t modernize, we’ll lose know-how and innovation power.”"
       - "“It takes too long to fix errors or security problems, and it’s damaging our reputation.”"
       - "“Reproducing errors takes forever because everyone is working with slightly different setups.”"
     button:

@@ -9,16 +9,16 @@ banner:
     link: "/contact"
 
 features:
-  - title: "Kommen Dir diese Herausforderungen bekannt vor?"
+  - title: "Kommen Ihnen diese Herausforderungen bekannt vor?"
     image: "/images/challenges.jpg"
     content: ""
     icon: fa-road-barrier
     padding: 8
     bulletpoints:
-      - "„Ich habe keine Ahnung, wo wir im Entwicklungsprozess stehen. Das führt zu Missverständnissen und zeigt, dass wir dringend mehr Struktur und Übersicht brauchen.“"
       - "„Es gibt Code-Stellen, die so fragil sind, dass wir uns nicht trauen, sie anzufassen.“"
-      - "„Unsere alten Prozesse machen die besten Leute unzufrieden. Wenn wir uns nicht modernisieren, verlieren wir Know-how und Innovationskraft.“"
       - "„Unsere Varianten und Abhängigkeiten führen ständig zu Problemen. Es fühlt sich an, als würden wir mehr reparieren als entwickeln.“"
+      - "„Ich habe keine Ahnung, wo wir im Entwicklungsprozess stehen. Das führt zu Missverständnissen und zeigt, dass wir dringend mehr Struktur und Übersicht brauchen.“"
+      - "„Unsere alten Prozesse machen die besten Leute unzufrieden. Wenn wir uns nicht modernisieren, verlieren wir Know-how und Innovationskraft.“"
       - "„Es dauert zu lange, Fehler oder Sicherheitsprobleme zu beheben, und das gefährdet unser Image.“"
       - "„Fehler nachzustellen dauert ewig, weil jeder mit leicht unterschiedlichen Setups arbeitet.“"
     button:
