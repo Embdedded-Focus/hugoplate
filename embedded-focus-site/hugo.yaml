@@ -4,6 +4,11 @@ title: Embedded Focus
 timeZone: Europe/Vienna
 summaryLength: 10
 disableLanguages: []
+languages:
+  en:
+    languageName: English
+  de:
+    languageName: Deutsch
 hasCJKLanguage: false
 defaultContentLanguage: en
 defaultContentLanguageInSubdir: false
@@ -19,6 +24,16 @@ pagination:
   path: page
 module:
   mounts:
+  # see: https://discourse.gohugo.io/t/do-all-page-bundles-need-localized-copies-once-you-add-a-new-language/37225/12
+  - source: content/english
+    target: content
+    lang: en
+  - source: content/deutsch
+    target: content
+    lang: de
+  - source: content/english
+    target: content
+    lang: de
   - source: assets
     target: assets
   - source: hugo_stats.json
