@@ -5,27 +5,25 @@ description: "Don't just take our word for it - hear from some of our satisfied 
 
 # Testimonials
 testimonials:
-- name: "Marvin McKinney"
-  icon: sack-dollar
-  designation: "Web Designer"
-  avatar: "/images/avatar-sm.png"
+- name: "Standard Environments"
+  designation: "Development Process"
+  icon: comment-dollar
+  # avatar: "/images/avatar-sm.png"
   content: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui iusto illo molestias, assumenda expedita commodi inventore non itaque molestiae voluptatum dolore, facilis sapiente, repellat veniam."
 
-- name: "Marvin McKinney"
-  icon: sack-dollar
-  designation: "Web Designer"
-  avatar: "/images/avatar-sm.png"
+- name: "Hardware Virtualization"
+  designation: "Quality Assurance"
+  icon: comment-dollar
   content: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui iusto illo molestias, assumenda expedita commodi inventore non itaque molestiae voluptatum dolore, facilis sapiente, repellat veniam."
 
-- name: "Marvin McKinney"
-  icon: sack-dollar
-  designation: "Web Designer"
-  avatar: "/images/avatar-sm.png"
+- name: "Parallel Testruns"
+  designation: "Quality Assurance"
+  icon: comment-dollar
   content: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui iusto illo molestias, assumenda expedita commodi inventore non itaque molestiae voluptatum dolore, facilis sapiente, repellat veniam."
 
-- name: "Marvin McKinney"
-  designation: "Web Designer"
-  avatar: "/images/avatar-sm.png"
+- name: "Testinfrastructure GitOps"
+  designation: "Quality Assurance"
+  icon: comment-dollar
   content: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui iusto illo molestias, assumenda expedita commodi inventore non itaque molestiae voluptatum dolore, facilis sapiente, repellat veniam."
 
 # don't create a separate page
