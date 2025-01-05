@@ -3,7 +3,7 @@ main:
 - name: Home
   url: ""
   weight: 1
-- name: Über
+- name: Über Mich
   url: about/
   weight: 2
 - name: Blog
