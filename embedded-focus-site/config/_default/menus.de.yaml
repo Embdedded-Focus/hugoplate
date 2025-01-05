@@ -19,3 +19,6 @@ footer:
 - name: Datenschutzerklärung
   url: privacy-policy/
   weight: 2
+- name: Impressum
+  url: imprint/
+  weight: 3

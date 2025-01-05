@@ -19,3 +19,6 @@ footer:
 - name: Privacy Policy
   url: privacy-policy/
   weight: 2
+- name: Imprint
+  url: imprint/
+  weight: 3
