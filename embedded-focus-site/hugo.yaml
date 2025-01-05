@@ -10,7 +10,7 @@ languages:
   de:
     languageName: Deutsch
 hasCJKLanguage: false
-defaultContentLanguage: en
+defaultContentLanguage: de
 defaultContentLanguageInSubdir: false
 services:
   googleAnalytics:
