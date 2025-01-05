@@ -8,18 +8,26 @@ endif
 
 ENVIRONMENT ?= production
 BASEURL ?= $(shell yq '.baseURL' < hugo.yaml)
+BASEDIR := $(shell echo $(BASEURL) | sed -E 's|^[^/]+://[^/]+(/?.*[^/])/*$$|\1|')
 
 all:
 	@echo "Please choose a target manually."
 
 .PHONY: build
 build:
+	mkdir -p static/en
+	echo "ErrorDocument 404 $(BASEDIR)/404.html" > static/.htaccess  # apache configuration
+	echo "ErrorDocument 404 $(BASEDIR)/en/404.html" > static/en/.htaccess  # apache configuration
 	hugo build --baseURL $(BASEURL) --environment $(ENVIRONMENT)
 
 .PHONY: build
 serve: BASEURL := http://$(LISTEN_ADDR):1313/
 serve:
-	hugo serve --bind $(LISTEN_ADDR) --baseURL $(BASEURL) --environment $(ENVIRONMENT)
+	hugo serve \
+		--bind $(LISTEN_ADDR) \
+		--baseURL $(BASEURL) \
+		--environment $(ENVIRONMENT) \
+		--disableFastRender
 
 .PHONY: deploy-preview
 deploy-preview:
