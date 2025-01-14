@@ -11,7 +11,7 @@ theme_switcher: true
 theme_default: system
 mainSections:
 - blog
-contact_form_action: '#'
+contact_form_action: 'https://contact.embedded-focus.com/contact'
 google_tag_manager: ""
 google_adsense: ""
 custom_script: ""

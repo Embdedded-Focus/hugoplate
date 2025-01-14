@@ -6,17 +6,14 @@
     <div class="container">
       <div class="row">
         <div class="md:col-10 lg:col-6 mx-auto">
-          <form action="{{ site.Params.contact_form_action }}" method="POST">
+          <form id="contact-form" action="{{ site.Params.contact_form_action }}" method="POST">
             <div class="mb-6">
-              <label for="name" class="form-label">
-                {{ T "full_name" }} <span class="text-red-500">*</span>
-              </label>
               <input
-                id="name"
-                name="name"
+                id="contact-dsgvo-checkbox"
+                name="contact-dsgvo-checkbox"
                 class="form-input"
-                placeholder=""
-                type="text" />
+                value="on"
+                type="hidden" />
             </div>
             <div class="mb-6">
               <label for="email" class="form-label">
@@ -40,8 +37,12 @@
                 placeholder=""
                 rows="8"></textarea>
             </div>
-            <button type="submit" class="btn btn-primary">{{ T "submit" }}</button>
+            <button type="submit" id="submit-button" class="btn btn-primary">{{ T "submit" }}</button>
           </form>
+          <div class="pt-4">
+            <div id="success-message" style="display: none;">{{ T "successful_form_submission" }}</div>
+            <div id="error-message" class="text-red-500" style="display: none;">{{ T "erroneous_form_submission" }}</div>
+          </div>
         </div>
       </div>
     </div>
@@ -116,5 +117,8 @@
     <script defer src="{{ $gmap.RelPermalink }}"></script>
     <script src="https://maps.googleapis.com/maps/api/js?key={{ site.Params.google_map.map_api_key }}&libraries=places"></script>
   {{ end }}
+
+  {{ $script := resources.Get "js/contact.js" | js.Build (dict "minify" true) | resources.Fingerprint }}
+  <script src="{{ $script.Permalink }}" type="application/javascript"></script>
 
 {{ end }}

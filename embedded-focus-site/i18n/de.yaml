@@ -17,3 +17,5 @@ search_initial_message: Type something to search..
 search_navigate: to navigate
 search_select: to select
 search_close: to close
+successful_form_submission: "Vielen Dank für Ihre Anfrage!"
+erroneous_form_submission: "Fehler bei der Übertragung der Formulardaten."
