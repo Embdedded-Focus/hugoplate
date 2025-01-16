@@ -9,14 +9,12 @@
           <form id="contact-form" action="{{ site.Params.contact_form_action }}" method="POST"
                 data-email-error="{{ T "email_required" }}"
                 data-message-error="{{ T "message_required" }}">
-            <div class="mb-6">
-              <input
-                id="contact-dsgvo-checkbox"
-                name="contact-dsgvo-checkbox"
-                class="form-input"
-                value="on"
-                type="hidden" />
-            </div>
+            <input
+              id="contact-dsgvo-checkbox"
+              name="contact-dsgvo-checkbox"
+              class="form-input"
+              value="on"
+              type="hidden" />
             <div class="mb-6">
               <label for="email" class="form-label">
                 {{ T "working_mail" }} <span class="text-red-500">*</span>
