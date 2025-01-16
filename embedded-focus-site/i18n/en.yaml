@@ -20,3 +20,5 @@ search_select: to select
 search_close: to close
 successful_form_submission: "Thank you for your message!"
 erroneous_form_submission: "Error during transmission of form data."
+email_required: Email is required.
+message_required: Message is required.
