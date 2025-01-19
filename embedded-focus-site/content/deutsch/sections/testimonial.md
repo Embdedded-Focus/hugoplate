@@ -1,30 +1,29 @@
 ---
 enable: true
-title: "Der Erfolg ist messbar"
-description: "Don't just take our word for it - hear from some of our satisfied users!  Check out some of our testimonials below to see what others are saying about Hugoplate."
+title: "Mehr Zeit für Innovation"
+description: Meine Maßnahmen sorgen für reibungslosere Abläufe und steigern die Effizienz in Ihrem Team. Hier zeige ich, wie sich Ihre Investitionen auszahlen.
 
-# Testimonials
 testimonials:
-- name: "Standardumgebungen"
-  designation: "Entwicklungsprozess"
+- name: "Parallele Testausführung"
+  designation: "Quality Assurance"
   icon: comment-dollar
-  # avatar: "/images/avatar-sm.png"
-  content: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui iusto illo molestias, assumenda expedita commodi inventore non itaque molestiae voluptatum dolore, facilis sapiente, repellat veniam."
+  content: "Durch parallelisierte Tests mit realen Embedded-Geräten wird die Testdauer erheblich verkürzt, und Entwickler:innen erhalten schneller präzises Feedback – eine wesentliche Grundlage für effizientere Abläufe."
+  more: parallel
 
 - name: "Hardware Virtualisierung"
   designation: "Quality Assurance"
   icon: comment-dollar
-  content: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui iusto illo molestias, assumenda expedita commodi inventore non itaque molestiae voluptatum dolore, facilis sapiente, repellat veniam."
+  content: "Mit virtuellen Umgebungen können Testressourcen effizienter genutzt werden, wodurch Hardwarekosten reduziert und Entwicklungsprozesse flexibler gestaltet werden."
 
-- name: "Parallele Testausführung"
-  designation: "Quality Assurance"
+- name: "Standardumgebungen"
+  designation: "Entwicklungsprozess"
   icon: comment-dollar
-  content: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui iusto illo molestias, assumenda expedita commodi inventore non itaque molestiae voluptatum dolore, facilis sapiente, repellat veniam."
+  content: "Standardisierte Entwicklungsumgebungen verbessern die Reproduzierbarkeit und senken den Aufwand für das Setup, was sowohl die Qualität als auch die Effizienz in der Entwicklung steigert."
 
 - name: "Testinfrastruktur GitOps"
   designation: "Quality Assurance"
   icon: comment-dollar
-  content: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui iusto illo molestias, assumenda expedita commodi inventore non itaque molestiae voluptatum dolore, facilis sapiente, repellat veniam."
+  content: "Durch den Einsatz von GitOps-Methoden wird die Testinfrastruktur zentral verwaltet und automatisiert ausgerollt, was zu mehr Konsistenz und weniger manuellem Aufwand führt."
 
 # don't create a separate page
 _build:
