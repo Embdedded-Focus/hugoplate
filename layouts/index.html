@@ -98,11 +98,16 @@
                     <div class="swiper-slide">
                       <div
                         class="bg-theme-light dark:bg-darkmode-theme-light rounded-lg px-7 py-10">
-                        <div class="text-dark dark:text-white">
+                        <div class="text-dark dark:text-white flex items-center">
                           <i class="fa-regular fa-{{ .icon | default "quote-left" }} mr-2 text-5xl"></i>
                         </div>
                         <blockquote class="mt-8">
                           {{ .content | markdownify }}
+                          {{ if .more }}
+                            <a
+                              class="text-gray-600"
+                              href="{{ .more | relLangURL }}">...{{ T "more" }}</a>
+                          {{ end }}
                         </blockquote>
                         <div class="mt-11 flex items-center">
                           {{ if .avatar }}
@@ -112,7 +117,11 @@
                           {{ end }}
                           <div {{ if .avatar }}class="ml-4"{{ end }}>
                             <h3 class="h5 font-primary font-semibold">
-                              {{ .name }}
+                              {{ if .more }}
+                                <a href="{{ .more | relLangURL }}">{{ .name }}</a>
+                              {{ else }}
+                                {{ .name }}
+                              {{ end }}
                             </h3>
                             <p class="text-dark dark:text-white">
                               {{ .designation | markdownify }}
