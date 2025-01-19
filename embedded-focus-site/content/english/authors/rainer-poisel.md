@@ -1,5 +1,5 @@
 ---
-title: John Doe
+title: Rainer Poisel
 email: johndoe@email.com
 image: "/images/avatar.png"
 description: this is meta description
