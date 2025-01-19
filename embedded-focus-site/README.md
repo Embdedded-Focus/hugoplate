@@ -30,6 +30,8 @@ Strong:
 - #FFFFFF ... white
 - #FF4500 ... red
 
+Link: https://colorkit.co/palette/228b22-000000-d4af37-1E90FF-FFFFFF-FF4500/
+
 Moderate:
 
 - #66C266 ... PCB green
@@ -38,3 +40,5 @@ Moderate:
 - #87CEEB ... soft blue
 - #F5F5F5 ... light gray
 - #FF7F50 ... soft red
+
+Link: https://colorkit.co/palette/66C266-333333-D4AF37-87CEEB-F5F5F5-FF7F50/
