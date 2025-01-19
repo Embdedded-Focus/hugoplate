@@ -24,51 +24,32 @@ features:
     button:
       enable: false
 
-  - title: "Wie Sie mit mir nachhaltige Ergebnisse erzielen"
+  - title: "Mehr Innovation durch bessere Effizienz"
     # Wie würde die Zielgruppe die Lösungen der Probleme beschreiben?
     # Wie fühlt sich das für meine Kunden an, wenn meine Lösungen umgesetzt sind?
     # Welche weiteren Probleme ergeben sich durch die Lösungen?
     image: "/images/success.jpg"
-    content: "Ich helfe Ihnen mit Hilfe praxisorientierter Lösungen, die Effizienz und Nachhaltigkeit vereinen, um Ihren technischen Entwicklungsprozess langfristig zu optimieren. Mit meiner Erfahrung und den passenden Werkzeugen schaffe ich eine Grundlage für stabile und zukunftssichere Ergebnisse."
-    icon: fa-cogs
+    content: "Lassen Sie uns Ihre Embedded Software Entwicklungsprozesse gemeinsam optimieren. So werden Sie effizienter, strukturierter und zukunftssicher arbeiten. Die folgenden Ergebnisse zeigen, was Sie konkret erwarten können."
+    icon: fa-chart-line
     padding: 8
     bulletpoints:
-    # - Durch proaktive Kommunikation und transparente Zusammenarbeit sparen Sie Zeit und Ressourcen.
-    - Meine Lösungen sind effizient, wirtschaftlich und zielen auf schnelle, zugleich langfristig tragfähige Ergebnisse ab.
-    # - Ich entwickle individuelle Strategien und Prozesse, die genau auf die Anforderungen Ihres Unternehmens abgestimmt sind.
-    - Ich stelle sicher, dass Standards und gesetzliche Vorgaben wie der Cyber Resilience Act effizient eingehalten und nachgewiesen werden können.
-    - Durch die Optimierung ihrer technischen Abläufe haben Sie wieder mehr Ressourcen für Innovation.
-    - Ich begleite Sie von der Analyse über die Umsetzung bis zur Schulung in allen Phasen der Prozessverbesserung.
+    - Sie sparen Zeit und Ressourcen, indem Prozesse automatisiert und Abläufe optimiert werden.
+    - Sie erhalten maßgeschneiderte Lösungen, die genau auf Ihre Unternehmensanforderungen abgestimmt sind.
+    - Der automatisierte Nachweis von Standards und gesetzlicher Vorgaben wie dem Cyber Resilience Act (CRA) wird überschaubar und gut handhabbar.
+    - Sie gewinnen mehr Freiraum für Innovation, weil technische Hürden reduziert werden und die Effizienz gesteigert wird.
     button:
       enable: false
 
-  - title: "Meine Leistungen für Ihre Ziele"
+  - title: "Mein Angebot für Ihren Erfolg"
     image: "/images/lightbulb.jpg"
-    content: "Mit individuell abgestimmten Leistungen unterstütze ich sie bei der Optimierung Ihrer Prozesse und der Modernisierung bestehender Systeme. Gemeinsam entwickeln wir passgenaue Lösungen, die messbaren Mehrwert schaffen."
-    icon: fa-lightbulb
+    content: "Ich unterstütze Ihr Unternehmen mit praxisnahen Ansätzen und modernen Technologien, um Qualität und Produktivität nachhaltig zu steigern."
+    icon: fa-gears
     padding: 8
     bulletpoints:
-    - "Aufbau und Optimierung von CI/CD-Pipelines, um Software schneller, fehlerfrei und effizient zu entwickeln."
-    - "Modernisierung von Legacy-Systemen mit neuen Technologien für bessere Performance, Sicherheit und Wartung."
-    - "Praktische Schulungen und Beratung, um moderne CI/CD-Methoden in Embedded-Projekten umzusetzen."
-    - "Automatisierter Nachweis von Normen wie der IEC 62443 und gesetzlichen Vorgaben wie dem Cyber Resilience Act (CRA)."
+    - "Automatisierte CI/CD-Prozesse, die Software schneller bereitstellen, Fehler reduzieren und Entwicklungsabläufe optimieren."
+    - "Modernisierung bestehender Systeme mit neuen Technologien, um Sicherheit, Wartbarkeit und Performance zu verbessern."
+    - "Beratung und Schulungen für DevOps-Methoden, damit Ihr Team effizienter zusammenarbeitet und Silos aufgebrochen werden."
+    - "Automatisierter Nachweis von Standards wie IEC 62443, IEC 61508 und IEC 26262 sowie von gesetzlichen Anforderungen wie dem Cyber Resilience Act (CRA)."
     button:
       enable: false
-
-  # - title: "Ich setze auf modernste Technologien"
-  #   image: "/images/technology.jpg"
-  #   content: "Um Ihre Entwicklungsprozesse effizient und zukunftssicher zu gestalten, nutze ich ein breites Spektrum an modernen Werkzeugen und Technologien. Diese decken alle Bereiche des gesamten Lebenszyklus der Softwareentwicklung ab."
-  #   icon: fa-check
-  #   padding: 8
-  #   bulletpoints:
-  #   - "Leistungsstarke Build-Systeme wie CMake, Bazel und meson für zuverlässige und skalierbare Software-Builds."
-  #   - "Code-Reviews und Optimierungen für Komponenten in Sprachen wie C, C++, Python, Golang, Shell, Lua und Rust."
-  #   - "Code-Versionierung und Zusammenarbeit mit Tools wie Git, unterstützt durch Workflows wie GitOps."
-  #   - "Automatisierte CI/CD-Pipelines, integriert mit Plattformen wie Jenkins oder GitLab CI/CD."
-  #   - "Effiziente Testautomatisierung für Embedded Systems mit Hardware-in-the-Loop- und Virtualisierungs-Ansätzen für maximale Produktqualität."
-  #   - "Containerisierungstechnologien wie Docker, Podman und Kubernetes für portable Entwicklungsumgebungen und den Betrieb von Embedded-Services."
-  #   button:
-  #     enable: true
-  #     label: "Blog lesen"
-  #     link: "blog/"
 ---

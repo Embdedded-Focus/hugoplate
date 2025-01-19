@@ -1,7 +1,7 @@
 ---
 enable: true
-title: "Mehr Zeit für Innovation"
-description: Meine Maßnahmen sorgen für reibungslosere Abläufe und steigern die Effizienz in Ihrem Team. Hier zeige ich, wie sich Ihre Investitionen auszahlen.
+title: "Messbare Erfolge - was Kunden sagen und rechnen"
+description: "Effizienzsteigerung zeigt sich nicht nur in besseren Abläufen, sondern auch in messbaren Ergebnissen. Hier sehen Sie, wie meine Kunden davon profitieren, sowohl in Erfahrungsberichten als auch in finanziellen Berechnungen."
 
 testimonials:
 - name: "Parallele Testausführung"
