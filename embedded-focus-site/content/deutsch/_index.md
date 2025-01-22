@@ -2,7 +2,7 @@
 banner:
   title: "Embedded Focus"
   content: "Konzeption - Umsetzung - Training"
-  slogan: Effizientes DevSecOps für Embedded Systems
+  slogan: "Planbarer, Sicherer & Stabiler: <br /> DevSecOps für Embedded Systems"
   button:
     enable: true
     label: "Kontakt"
@@ -15,12 +15,10 @@ features:
     icon: fa-road-barrier
     padding: 8
     bulletpoints:
-    - "„Es gibt Code-Stellen, die so fragil sind, dass wir uns nicht trauen, sie anzufassen.“"
-    # - "„Ich habe keine Ahnung, wo wir im Entwicklungsprozess stehen. Das führt zu Missverständnissen und zeigt, dass wir dringend mehr Struktur und Übersicht brauchen.“"
-    - "„Es dauert zu lange, Fehler oder Sicherheitsprobleme zu beheben, und das gefährdet unser Image.“"
-    - "„Unsere Varianten und Abhängigkeiten führen ständig zu Problemen. Es fühlt sich an, als würden wir mehr reparieren als entwickeln.“"
-    - "„Unsere alten Prozesse machen die besten Leute unzufrieden. Wenn wir uns nicht modernisieren, verlieren wir Know-how und Innovationskraft.“"
-    # - "„Fehler nachzustellen dauert ewig, weil jeder mit leicht unterschiedlichen Setups arbeitet.“"
+    - "„Unser Code ist so fragil, dass jede Änderung riskant ist“ – technische Schulden häufen sich, Sicherheitslücken bleiben unentdeckt, und Produktqualität sowie Innovationskraft leiden."
+    - "„Fehler und Sicherheitsprobleme zu beheben dauert zu lange.“ – das erhöht Support-Aufwände, gefährdet Compliance und führt dazu, dass das Team mehr Firefighting als echte Entwicklung betreibt."
+    - "„Unsere Varianten und Abhängigkeiten verursachen ständig Probleme“ – das System wird immer schwerer beherrschbar, die Entwicklungsgeschwindigkeit sinkt, und Innovation bleibt auf der Strecke."
+    - "„Veraltete Prozesse frustrieren unsere besten Leute“ – erfahrene Entwickler:innen verlassen das Unternehmen, Onboarding wird mühsamer, und unser Know-how schwindet."
     button:
       enable: false
 
@@ -33,10 +31,10 @@ features:
     icon: fa-chart-line
     padding: 8
     bulletpoints:
-    - Sie sparen Zeit und Ressourcen, indem Prozesse automatisiert und Abläufe optimiert werden.
-    - Sie erhalten maßgeschneiderte Lösungen, die genau auf Ihre Unternehmensanforderungen abgestimmt sind.
-    - Der automatisierte Nachweis von Standards und gesetzlicher Vorgaben wie dem Cyber Resilience Act (CRA) wird überschaubar und gut handhabbar.
-    - Sie gewinnen mehr Freiraum für Innovation, weil technische Hürden reduziert werden und die Effizienz gesteigert wird.
+    - Sie verbringen weniger Zeit mit manuellen Builds und Tests, da Automatisierung fehleranfällige Prozesse übernimmt und Wartezeiten reduziert.
+    - Ihr Team kann sich auf produktive Arbeit konzentrieren, weil klar strukturierte Pipelines und Prozesse weniger Nachfragen, Missverständnisse und Meetings verursachen.
+    - Der Nachweis von Standards wie dem Cyber Resilience Act (CRA) oder IEC 62443 erfolgt automatisiert durch automatisiert erstellte Nachweise, anstatt mühsam in Excel-Listen und Dokumentationen nachgetragen zu werden.
+    - Entwickler:innen trauen sich wieder, Code-Änderungen vorzunehmen, weil stabile Tests und Versionierungssysteme sofortiges Feedback liefern und Regressionen verhindern.
     button:
       enable: false
 
@@ -46,10 +44,10 @@ features:
     icon: fa-gears
     padding: 8
     bulletpoints:
-    - "Automatisierte CI/CD-Prozesse, die Software schneller bereitstellen, Fehler reduzieren und Entwicklungsabläufe optimieren."
-    - "Modernisierung bestehender Systeme mit neuen Technologien, um Sicherheit, Wartbarkeit und Performance zu verbessern."
-    - "Beratung und Schulungen für DevOps-Methoden, damit Ihr Team effizienter zusammenarbeitet und Silos aufgebrochen werden."
-    - "Automatisierter Nachweis von Standards wie IEC 62443, IEC 61508 und IEC 26262 sowie von gesetzlichen Anforderungen wie dem Cyber Resilience Act (CRA)."
+    - "Schnellere und sicherere Software-Releases: Ich entwickle automatisierte CI/CD-Pipelines, die Build-, Test- und Deployment-Prozesse beschleunigen, damit Ihr Team nicht stundenlang auf Testergebnisse warten muss und neue Features zuverlässig ausgerollt werden können."
+    - "Veraltete Software modernisieren, ohne die Produktion zu gefährden: Ich unterstütze Unternehmen dabei, Legacy-Code mit modernen Technologien wie Containerisierung, Automatisierung oder durch den Einsatz neuer Programmiersprachen wie Rust zukunftssicher zu machen – ohne den Betrieb zu unterbrechen oder bestehende Schnittstellen zu gefährden."
+    - "DevOps in die Praxis bringen: Ich schule Ihr Team in modernen DevOps-Methoden und sorge dafür, dass Automatisierung, Versionierung und Teststrategien reibungslos ineinandergreifen – damit niemand mehr auf manuelle Deployments angewiesen ist."
+    - "Compliance ohne Mehraufwand: Ich entwickle Prozesse, die Nachweise für IEC 62443, IEC 61508, IEC 26262 und den Cyber Resilience Act (CRA) automatisch generieren – keine manuelle Dokumentation mehr, sondern auditsichere Reports auf Knopfdruck."
     button:
       enable: false
 ---

@@ -2,7 +2,7 @@
 banner:
   title: "Embedded Focus"
   content: "Concept – Implementation – Training"
-  slogan: "Efficient DevSecOps for Embedded Systems"
+  slogan: "Predictable, Secure & Robust: <br /> DevSecOps for Embedded Systems"
   button:
     enable: true
     label: "Contact"
@@ -15,12 +15,10 @@ features:
     icon: fa-road-barrier
     padding: 8
     bulletpoints:
-    - "„Some parts of our codebase are so fragile that we’re afraid to touch them.“"
-    # - "„I have no idea where we are in the development process. That leads to misunderstandings and shows that we desperately need more structure and clarity.“"
-    - "„Fixing errors and security issues takes too long, putting our reputation at risk.“"
-    - "„Our system's complexity and dependencies constantly cause issues. It feels like we spend more time fixing than developing.“"
-    - "„Our outdated processes frustrate our best developers. If we don’t modernize, we’ll lose talent and innovation.“"
-    # - "„Reproducing bugs takes forever because everyone works with slightly different setups.“"
+    - "\"Our code is so fragile that every change feels risky\" – technical debt keeps growing, security vulnerabilities go unnoticed, and both product quality and innovation suffer."
+    - "\"Fixing bugs and security issues takes too long.\" – this increases support costs, jeopardizes compliance, and forces the team to spend more time firefighting than actually developing."
+    - "\"Our variants and dependencies constantly cause problems\" – the system becomes harder to manage, development slows down, and innovation grinds to a halt."
+    - "\"Outdated processes frustrate our best people\" – experienced developers leave, onboarding becomes more difficult, and critical know-how gets lost."
     button:
       enable: false
 
@@ -30,10 +28,10 @@ features:
     icon: fa-chart-line
     padding: 8
     bulletpoints:
-    - "Save time and resources by automating workflows and streamlining development processes."
-    - "Get tailored solutions that align perfectly with your company’s needs and goals."
-    - "Ensure compliance with industry standards and regulations like the Cyber Resilience Act (CRA) in a structured and manageable way."
-    - "Free up time for innovation by removing technical barriers and boosting efficiency."
+    - You spend less time on manual builds and testing because automation eliminates error-prone tasks and reduces waiting times.
+    - Your team can focus on real development work, as well-structured pipelines and processes minimize back-and-forth questions, misunderstandings, and unnecessary meetings.
+    - Compliance with standards like the Cyber Resilience Act (CRA) or IEC 62443 is handled automatically through generated compliance reports, eliminating the need for tedious manual updates in Excel sheets and documentation.
+    - Developers feel confident making code changes again, as robust testing and versioning systems provide immediate feedback and prevent regressions.
     button:
       enable: false
 
@@ -43,10 +41,10 @@ features:
     icon: fa-gears
     padding: 8
     bulletpoints:
-    - "Automated CI/CD processes that speed up software delivery, reduce errors, and optimize workflows."
-    - "Modernizing legacy systems with cutting-edge technologies to enhance security, maintainability, and performance."
-    - "DevOps consulting and training to help your team collaborate more effectively and break down silos."
-    - "Automated compliance verification for industry standards like IEC 62443, IEC 61508, and IEC 26262, as well as regulations like the Cyber Resilience Act (CRA)."
+    - "Faster and more reliable software releases: I develop automated CI/CD pipelines that accelerate build, test, and deployment processes, so your team no longer has to wait hours for test results and can roll out new features with confidence."
+    - "Modernizing legacy software without disrupting production: I help companies future-proof their legacy code with modern technologies like containerization, automation, or programming languages like Rust—without interrupting operations or breaking existing interfaces."
+    - "Bringing DevOps into practice: I train your team in modern DevOps methodologies, ensuring that automation, version control, and testing strategies work seamlessly together—so no one has to rely on manual deployments anymore."
+    - "Effortless compliance: I develop processes that automatically generate compliance reports for IEC 62443, IEC 61508, IEC 26262, and the Cyber Resilience Act (CRA)—eliminating manual documentation and providing audit-ready reports at the push of a button."
     button:
       enable: false
 ---
