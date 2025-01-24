@@ -41,7 +41,7 @@ features:
     icon: fa-gears
     padding: 8
     bulletpoints:
-    - "Faster and more reliable software releases: I develop automated CI/CD pipelines that accelerate build, test, and deployment processes, so your team no longer has to wait hours for test results and can roll out new features with confidence."
+    - "Faster and more reliable software releases: I develop automated CI/CD pipelines that accelerate build, test, and deployment processes, so your team no longer has to wait hours for product-builds and can roll out new features with confidence."
     - "Modernizing legacy software without disrupting production: I help companies future-proof their legacy code with modern technologies like containerization, automation, or programming languages like Rust—without interrupting operations or breaking existing interfaces."
     - "Bringing DevOps into practice: I train your team in modern DevOps methodologies, ensuring that automation, version control, and testing strategies work seamlessly together—so no one has to rely on manual deployments anymore."
     - "Effortless compliance: I develop processes that automatically generate compliance reports for IEC 62443, IEC 61508, IEC 26262, and the Cyber Resilience Act (CRA)—eliminating manual documentation and providing audit-ready reports at the push of a button."
