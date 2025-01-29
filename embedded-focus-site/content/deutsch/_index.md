@@ -4,7 +4,7 @@ banner:
   content: "Konzeption - Umsetzung - Training"
   slogan: "Planbarer, Sicherer & Stabiler: <br /> DevSecOps für Embedded Systems"
   button:
-    enable: true
+    enable: false
     label: "Kontakt"
     link: "contact/"
 
