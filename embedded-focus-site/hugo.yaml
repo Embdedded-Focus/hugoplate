@@ -78,6 +78,7 @@ markup:
       unsafe: true
   highlight:
     style: monokai
+    lineNumbersInTable: false
   tableOfContents:
     startLevel: 2
     endLevel: 5
