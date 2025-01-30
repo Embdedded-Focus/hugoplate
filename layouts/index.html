@@ -34,14 +34,16 @@
   <!-- /Banner -->
 
   <!-- Features -->
-  {{ range $i, $e:= .Params.features }}
+  {{ range $i, $e := .Params.features }}
     <section class="section-sm pt-8 pb-8 {{ if (modBool $i 2) }}bg-gradient{{ end }}">
       <div class="container">
         <div class="row items-center justify-between">
           <div
-            class="mb:md-0 {{ if not (modBool $i 2) }}
+            class="md:mb-0 mb-8
+            {{ if not (modBool $i 2) }}
               md:order-2
-            {{ end }} md:col-5">
+            {{ end }}
+            md:col-5">
             {{ partial "image" (dict "Src" .image "Alt" "feature image" "DisplayXL" "520x" "DisplayLG" "425x" "DisplayMD" "360x") }}
           </div>
           <div
@@ -58,7 +60,16 @@
               {{ range .bulletpoints }}
                 <li class="relative mb-4 pl-{{ $e.padding | default "6" }}">
                   <i class="fa {{ $e.icon | default "fa-check" }} absolute left-0 top-1.5"></i>
-                  {{ . | markdownify }}
+                  {{ if isset . "quote" }}
+                    {{ .quote | markdownify }}
+                  {{ else }}
+                    {{ . | markdownify }}
+                  {{ end }}
+                  {{ if isset . "description" }}
+                    <p class="mt-2 bg-{{ .color | default "yellow" }}-100 border-l-4 border-yellow-500 text-yellow-700 p-2 rounded-lg shadow">
+                      {{ .description | markdownify }}
+                    </p>
+                  {{ end }}
                 </li>
               {{ end }}
             </ul>
