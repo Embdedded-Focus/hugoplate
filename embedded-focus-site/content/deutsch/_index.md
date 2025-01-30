@@ -1,8 +1,8 @@
 ---
 banner:
   title: "Embedded Focus"
-  content: "Konzeption - Umsetzung - Training"
-  slogan: "Planbarer, Sicherer & Stabiler: <br /> DevSecOps für Embedded Systems"
+  content: "Mit starken Prozessen bereit für die Weltspitze."
+  slogan: "DevSecOps für Embedded Systems: <br /> Innovation ohne Kompromisse"
   button:
     enable: false
     label: "Kontakt"
@@ -15,10 +15,14 @@ features:
     icon: fa-road-barrier
     padding: 8
     bulletpoints:
-    - "„Unser Code ist so fragil, dass jede Änderung riskant ist“ – technische Schulden häufen sich, Sicherheitslücken bleiben unentdeckt, und Produktqualität sowie Innovationskraft leiden."
-    - "„Fehler und Sicherheitsprobleme zu beheben dauert zu lange.“ – das erhöht Support-Aufwände, gefährdet Compliance und führt dazu, dass das Team mehr Firefighting als echte Entwicklung betreibt."
-    - "„Unsere Varianten und Abhängigkeiten verursachen ständig Probleme“ – das System wird immer schwerer beherrschbar, die Entwicklungsgeschwindigkeit sinkt, und Innovation bleibt auf der Strecke."
-    - "„Veraltete Prozesse frustrieren unsere besten Leute“ – erfahrene Entwickler:innen verlassen das Unternehmen, Onboarding wird mühsamer, und unser Know-how schwindet."
+    - quote: "„Unser Code ist so fragil, dass jede Änderung riskant ist.“"
+      description: "Auf einem Haufen technischer Schulden kann man schwer innovativ sein."
+    - quote: "„Fehler und Sicherheitsprobleme zu beheben dauert zu lange.“"
+      description: "Die Folge: mehr Firefighting als echte Entwicklung."
+    - quote: "„Unsere Varianten und Abhängigkeiten verursachen ständig Probleme.“"
+      description: "Das System bleibt durch die Komplexität kaum beherrschbar."
+    - quote: "„Veraltete Prozesse frustrieren unsere besten Leute.“"
+      description: "Das Resultat: sinkende Motivation, stockende Innovation, steigender Wettbewerbsdruck."
     button:
       enable: false
 
@@ -27,20 +31,21 @@ features:
     # Wie fühlt sich das für meine Kunden an, wenn meine Lösungen umgesetzt sind?
     # Welche weiteren Probleme ergeben sich durch die Lösungen?
     image: "/images/success.jpg"
-    content: "Lassen Sie uns Ihre Embedded Software Entwicklungsprozesse gemeinsam optimieren. So werden Sie effizienter, strukturierter und zukunftssicher arbeiten. Die folgenden Ergebnisse zeigen, was Sie konkret erwarten können."
+    content: ""
     icon: fa-chart-line
     padding: 8
     bulletpoints:
-    - Sie verbringen weniger Zeit mit manuellen Builds und Tests, da Automatisierung fehleranfällige Prozesse übernimmt und Wartezeiten reduziert.
-    - Ihr Team kann sich auf produktive Arbeit konzentrieren, weil klar strukturierte Pipelines und Prozesse weniger Nachfragen, Missverständnisse und Meetings verursachen.
-    - Der Nachweis von Standards wie dem Cyber Resilience Act (CRA) oder IEC 62443 erfolgt automatisiert durch automatisiert erstellte Nachweise, anstatt mühsam in Excel-Listen und Dokumentationen nachgetragen zu werden.
-    - Entwickler:innen trauen sich wieder, Code-Änderungen vorzunehmen, weil stabile Tests und Versionierungssysteme sofortiges Feedback liefern und Regressionen verhindern.
+    - "Builds werden CI/CD-integriert ausgeführt. Schluss mit Langeweile: endlich bleibt Zeit für abwechslungsreiche Tätigkeiten."
+    - Die Nachweise über die Einhaltung von Cyber Resilience Act (CRA) oder IEC 62443 landen beim Build unserer Produkte automatisch in unserem Ticketsystem.
+    - "Morgens mit Vollgas ins Büro: endlich wieder das Gefühl haben bei der Produktentwicklung etwas bewirken zu können."
+    - "Das „Safety Net“ macht uns mutig: Innovation fühlt sich nicht mehr riskant, sondern befreiend an – auch kühne Ideen werden sicher umgesetzt."
+    - "Das Bild hat sich gedreht: wir bekommen wieder Bewerbungen, weil sich herumgesprochen hat, wieviel Freude wir an unserer Arbeit haben."
     button:
       enable: false
 
   - title: "Mein Angebot für Ihren Erfolg"
     image: "/images/lightbulb.jpg"
-    content: "Ich unterstütze Ihr Unternehmen mit praxisnahen Ansätzen und modernen Technologien, um Qualität und Produktivität nachhaltig zu steigern."
+    content: ""
     icon: fa-gears
     padding: 8
     bulletpoints:

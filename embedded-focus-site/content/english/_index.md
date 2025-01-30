@@ -1,8 +1,8 @@
 ---
 banner:
   title: "Embedded Focus"
-  content: "Concept – Implementation – Training"
-  slogan: "Predictable, Secure & Robust: <br /> DevSecOps for Embedded Systems"
+  content: "Ready to lead with strong, efficient processes."
+  slogan: "DevSecOps for Embedded Systems: <br /> Innovation without compromise"
   button:
     enable: false
     label: "Contact"
@@ -24,7 +24,7 @@ features:
 
   - title: "Drive Innovation with Greater Efficiency"
     image: "/images/success.jpg"
-    content: "Let's optimize your embedded software development processes so you can work more efficiently, with better structure and future-proof workflows. Here’s what you can expect from our collaboration."
+    content: ""
     icon: fa-chart-line
     padding: 8
     bulletpoints:
@@ -37,7 +37,7 @@ features:
 
   - title: "How My Expertise Drives Your Success"
     image: "/images/lightbulb.jpg"
-    content: "I help companies implement practical strategies and modern technologies to improve quality, efficiency, and long-term scalability."
+    content: ""
     icon: fa-gears
     padding: 8
     bulletpoints:
