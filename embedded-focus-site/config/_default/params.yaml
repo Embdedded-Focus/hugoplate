@@ -39,11 +39,12 @@ announcement:
   content: You must replace the **baseURL** in **hugo.toml** file when deploying, you can manage this announcement from the **params.toml** file.
 metadata:
   keywords:
-  - Boilerplate
-  - Hugo
-  description: Hugo & Tailwindcss Starter
-  author: zeon.studio
-  twitter: zeon_studio
+  - Embedded Software
+  - DevSecOps
+  - Continuous Integration
+  - Continuous Deployment
+  description: Embedded Focus
+  author: Rainer Poisel
   image: images/og-image.png
 site_verification:
   google: ""
