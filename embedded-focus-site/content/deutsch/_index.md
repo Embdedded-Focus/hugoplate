@@ -15,6 +15,7 @@ features:
     # icon: fa-road-barrier
     # padding: 8
     bulletpoints:
+    - quote: "„Wie soll man bei all den Vorgaben des Cyber Resilience Acts noch innovativ sein?“"
     - quote: "„Unser Code ist so fragil, dass jede Änderung riskant ist.“"
       # description: "Auf einem Haufen technischer Schulden kann man schwer innovativ sein."
     - quote: "„Fehler und Sicherheitsprobleme zu beheben dauert zu lange.“"
