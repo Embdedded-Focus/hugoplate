@@ -16,7 +16,7 @@ google_tag_manager: ""
 google_adsense: ""
 custom_script: ""
 copyright: >-
-  Copyright © 2025 Rainer Poisel. All rights reserved. Theme by <a href="https://github.com/zeon-studio/hugoplate">zeon-studio</a>.
+  Copyright © 2025 Rainer Poisel. All rights reserved.
 preloader:
   enable: false
   preloader: ""
