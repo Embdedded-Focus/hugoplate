@@ -58,8 +58,12 @@
             </p>
             <ul>
               {{ range .bulletpoints }}
+                {{ if $e.icon }}
                 <li class="relative mb-4 pl-{{ $e.padding | default "6" }}">
-                  <i class="fa {{ $e.icon | default "fa-check" }} absolute left-0 top-1.5"></i>
+                    <i class="fa {{ $e.icon | default "fa-check" }} absolute left-0 top-1.5"></i>
+                {{ else }}
+                <li class="relative mb-4">
+                {{ end }}
                   {{ if and (reflect.IsMap .) (isset . "quote") }}
                     {{ .quote | markdownify }}
                   {{ else }}
