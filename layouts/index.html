@@ -60,12 +60,12 @@
               {{ range .bulletpoints }}
                 <li class="relative mb-4 pl-{{ $e.padding | default "6" }}">
                   <i class="fa {{ $e.icon | default "fa-check" }} absolute left-0 top-1.5"></i>
-                  {{ if isset . "quote" }}
+                  {{ if and (reflect.IsMap .) (isset . "quote") }}
                     {{ .quote | markdownify }}
                   {{ else }}
                     {{ . | markdownify }}
                   {{ end }}
-                  {{ if isset . "description" }}
+                  {{ if and (reflect.IsMap .) (isset . "description") }}
                     <p class="mt-2 bg-{{ .color | default "yellow" }}-100 border-l-4 border-yellow-500 text-yellow-700 p-2 rounded-lg shadow">
                       {{ .description | markdownify }}
                     </p>
