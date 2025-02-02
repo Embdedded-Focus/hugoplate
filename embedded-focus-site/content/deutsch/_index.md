@@ -16,13 +16,13 @@ features:
     padding: 8
     bulletpoints:
     - quote: "„Unser Code ist so fragil, dass jede Änderung riskant ist.“"
-      description: "Auf einem Haufen technischer Schulden kann man schwer innovativ sein."
+      # description: "Auf einem Haufen technischer Schulden kann man schwer innovativ sein."
     - quote: "„Fehler und Sicherheitsprobleme zu beheben dauert zu lange.“"
-      description: "Die Folge: mehr Firefighting als echte Entwicklung."
+      # description: "Die Folge: mehr Firefighting als echte Entwicklung."
     - quote: "„Unsere Varianten und Abhängigkeiten verursachen ständig Probleme.“"
-      description: "Das System bleibt durch die Komplexität kaum beherrschbar."
+      # description: "Das System bleibt durch die Komplexität kaum beherrschbar."
     - quote: "„Veraltete Prozesse frustrieren unsere besten Leute.“"
-      description: "Das Resultat: sinkende Motivation, stockende Innovation, steigender Wettbewerbsdruck."
+      # description: "Das Resultat: sinkende Motivation, stockende Innovation, steigender Wettbewerbsdruck."
     button:
       enable: false
 
@@ -35,11 +35,14 @@ features:
     icon: fa-chart-line
     padding: 8
     bulletpoints:
+    # - "Den Cyber Resilience Act als Chance sehen, alte Abläufe zu modernisieren. Nicht nur Nachweise werden automatisch generiert, auch Produkterstellungsprozesse laufen schneller und schaffen Raum für Innovation."
+    # - "Nachweise über Konformität mit EU Sicherheitsvorgabe werden nicht mehr händisch erstellt, sondern landen automatisch im Ticketsystem."
+    # - "Morgens mit Vollgas ins Büro: endlich wieder das Gefühl haben bei der Produktentwicklung etwas bewirken zu können."
+    - "Der Cyber Resilience Act als Sprungbrett: Automatisierte Nachweise, schnellere Prozesse – und endlich wieder Raum für echte Innovation."
     - "Builds werden CI/CD-integriert ausgeführt. Schluss mit Langeweile: endlich bleibt Zeit für abwechslungsreiche Tätigkeiten."
-    - Die Nachweise über die Einhaltung von Cyber Resilience Act (CRA) oder IEC 62443 landen beim Build unserer Produkte automatisch in unserem Ticketsystem.
-    - "Morgens mit Vollgas ins Büro: endlich wieder das Gefühl haben bei der Produktentwicklung etwas bewirken zu können."
-    - "Das „Safety Net“ macht uns mutig: Innovation fühlt sich nicht mehr riskant, sondern befreiend an – auch kühne Ideen werden sicher umgesetzt."
-    - "Das Bild hat sich gedreht: wir bekommen wieder Bewerbungen, weil sich herumgesprochen hat, wieviel Freude wir an unserer Arbeit haben."
+    - "Das durch die Automatisierung gewonnene Sicherheitsnetz macht mutig: Innovation fühlt sich nicht mehr riskant, sondern befreiend an."  #  – auch kühne Ideen werden sicher umgesetzt.
+    - "Das Bild dreht sich: es kommen wieder Bewerbungen, weil sich herumgesprochen hat, wieviel Freude die Arbeit bereitet."
+    # - "Die modernen Prozesse machen den Kopf frei für echte Innovation. Plötzlich sind Ideen nicht mehr ein Risiko, sondern ein Wettbewerbsvorteil."
     button:
       enable: false
 
