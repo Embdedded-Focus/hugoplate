@@ -2,7 +2,7 @@
 banner:
   title: "Embedded Focus"
   content: "Mit starken Prozessen bereit für die Weltspitze."
-  slogan: "DevSecOps für Embedded Systems: <br /> Innovation ohne Kompromisse"
+  slogan: "DevSecOps für Embedded Systems: <br /> Innovation durch Effizienz"
   button:
     enable: false
     label: "Kontakt"
@@ -26,7 +26,7 @@ features:
     button:
       enable: false
 
-  - title: "Mehr Innovation durch bessere Effizienz"
+  - title: "Hervorheben im Wettbewerb"
     # Wie würde die Zielgruppe die Lösungen der Probleme beschreiben?
     # Wie fühlt sich das für meine Kunden an, wenn meine Lösungen umgesetzt sind?
     # Welche weiteren Probleme ergeben sich durch die Lösungen?
