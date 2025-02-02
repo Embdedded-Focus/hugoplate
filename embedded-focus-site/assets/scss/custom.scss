@@ -2,3 +2,7 @@
 code {
     @apply bg-gray-100;
 }
+
+blockquote {
+  @apply mt-0 mb-0 pt-0 pb-0 #{!important};
+}
