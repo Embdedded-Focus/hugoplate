@@ -83,6 +83,19 @@ module.exports = {
         primary: [fontPrimary, fontPrimaryType],
         secondary: [fontSecondary, fontSecondaryType],
       },
+      // see: https://github.com/tailwindlabs/tailwindcss-typography/issues/18#issuecomment-733045571
+      typography: {
+        DEFAULT: {
+          css: {
+            'code::before': {
+              content: '""'
+            },
+            'code::after': {
+              content: '""'
+            }
+          }
+        }
+      },
     },
   },
   plugins: [
