@@ -12,8 +12,8 @@ features:
   - title: "Kommen Ihnen diese Herausforderungen bekannt vor?"
     image: "/images/challenges.jpg"
     content: ""
-    icon: fa-road-barrier
-    padding: 8
+    # icon: fa-road-barrier
+    # padding: 8
     bulletpoints:
     - quote: "„Unser Code ist so fragil, dass jede Änderung riskant ist.“"
       # description: "Auf einem Haufen technischer Schulden kann man schwer innovativ sein."
@@ -32,8 +32,8 @@ features:
     # Welche weiteren Probleme ergeben sich durch die Lösungen?
     image: "/images/success.jpg"
     content: ""
-    icon: fa-chart-line
-    padding: 8
+    # icon: fa-chart-line
+    # padding: 8
     bulletpoints:
     # - "Den Cyber Resilience Act als Chance sehen, alte Abläufe zu modernisieren. Nicht nur Nachweise werden automatisch generiert, auch Produkterstellungsprozesse laufen schneller und schaffen Raum für Innovation."
     # - "Nachweise über Konformität mit EU Sicherheitsvorgabe werden nicht mehr händisch erstellt, sondern landen automatisch im Ticketsystem."
@@ -49,8 +49,8 @@ features:
   - title: "Mein Angebot für Ihren Erfolg"
     image: "/images/lightbulb.jpg"
     content: ""
-    icon: fa-gears
-    padding: 8
+    # icon: fa-gears
+    # padding: 8
     bulletpoints:
     - "Schnellere und sicherere Software-Releases: Ich entwickle automatisierte CI/CD-Pipelines, die Build-, Test- und Deployment-Prozesse beschleunigen, damit Ihr Team nicht stundenlang auf Produkt-Builds warten muss und neue Features zuverlässig ausgerollt werden können."
     - "Veraltete Software modernisieren, ohne die Produktion zu gefährden: Ich unterstütze Unternehmen dabei, Legacy-Code mit modernen Technologien wie Containerisierung, Automatisierung oder durch den Einsatz neuer Programmiersprachen wie Rust zukunftssicher zu machen – ohne den Betrieb zu unterbrechen oder bestehende Schnittstellen zu gefährden."
