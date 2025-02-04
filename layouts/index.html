@@ -56,27 +56,24 @@
             <p class="mb-8 text-lg">
               {{ .content | markdownify }}
             </p>
+            {{ if .bulletpoints }}
             <ul>
               {{ range .bulletpoints }}
                 {{ if $e.icon }}
-                <li class="relative mb-4 pl-{{ $e.padding | default "6" }}">
+                  <li class="relative mb-4 pl-{{ $e.padding | default "6" }}">
                     <i class="fa {{ $e.icon | default "fa-check" }} absolute left-0 top-1.5"></i>
                 {{ else }}
-                <li class="relative mb-4">
+                  <li class="relative mb-4">
                 {{ end }}
-                  {{ if and (reflect.IsMap .) (isset . "quote") }}
-                    {{ .quote | markdownify }}
-                  {{ else }}
-                    {{ . | markdownify }}
-                  {{ end }}
-                  {{ if and (reflect.IsMap .) (isset . "description") }}
-                    <p class="mt-2 bg-{{ .color | default "yellow" }}-100 border-l-4 border-yellow-500 text-yellow-700 p-2 rounded-lg shadow">
-                      {{ .description | markdownify }}
-                    </p>
-                  {{ end }}
-                </li>
+                  {{ . | markdownify }}
+                  </li>
               {{ end }}
             </ul>
+            {{ else }}
+              {{ range .accordions }}
+                {{ partial "accordion" (dict "Title" .title "Content" .content) }}
+              {{ end }}
+            {{ end }}
             {{ with .button }}
               {{ if .enable }}
                 <a class="btn btn-primary mt-6" href="{{ .link | absURL }}">
