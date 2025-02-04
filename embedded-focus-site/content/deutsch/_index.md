@@ -32,7 +32,7 @@ features:
     # Wie fühlt sich das für meine Kunden an, wenn meine Lösungen umgesetzt sind?
     # Welche weiteren Probleme ergeben sich durch die Lösungen?
     image: "/images/success.jpg"
-    content: ""
+    content: "Gemeinsam meistern wir Herausforderungen und bringen Ihr Unternehmen im Wettbewerb nach vorne. Mit effizienten Prozessen und starken Lösungen schaffen wir neue Möglichkeiten – eine nachhaltige Investition in die Zukunft, die wirklich etwas bewegt!"
     # icon: fa-chart-line
     # padding: 8
     bulletpoints:
