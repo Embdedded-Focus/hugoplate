@@ -112,9 +112,9 @@
                   {{ range .Params.testimonials }}
                     <div class="swiper-slide">
                       <div
-                        class="bg-theme-light dark:bg-darkmode-theme-light rounded-lg px-7 py-10">
+                        class="bg-theme-light dark:bg-darkmode-theme-light rounded-lg px-7 py-6">
                         <div class="text-dark dark:text-white flex items-center">
-                          <i class="fa-regular fa-{{ .icon | default "quote-left" }} mr-2 text-5xl"></i>
+                          <i class="fa-regular fa-{{ .icon | default "quote-left" }} mr-2 text-5xl mb-6"></i>
                         </div>
                         <blockquote class="mt-8">
                           {{ .content | markdownify }}
