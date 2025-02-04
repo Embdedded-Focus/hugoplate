@@ -15,14 +15,14 @@ features:
     # icon: fa-road-barrier
     # padding: 8
     bulletpoints:
-    - quote: "„Wie soll man bei all den Vorgaben des Cyber Resilience Acts noch innovativ sein?“"
-    - quote: "„Unser Code ist so fragil, dass jede Änderung riskant ist.“"
+    - "„Wie soll man bei all den Vorgaben des Cyber Resilience Acts noch innovativ sein?“"
+    - "„Unser Code ist so fragil, dass jede Änderung riskant ist.“"
       # description: "Auf einem Haufen technischer Schulden kann man schwer innovativ sein."
-    - quote: "„Fehler und Sicherheitsprobleme zu beheben dauert zu lange.“"
+    - "„Fehler und Sicherheitsprobleme zu beheben dauert zu lange.“"
       # description: "Die Folge: mehr Firefighting als echte Entwicklung."
-    - quote: "„Unsere Varianten und Abhängigkeiten verursachen ständig Probleme.“"
+    - "„Unsere Varianten und Abhängigkeiten verursachen ständig Probleme.“"
       # description: "Das System bleibt durch die Komplexität kaum beherrschbar."
-    - quote: "„Veraltete Prozesse frustrieren unsere besten Leute.“"
+    - "„Veraltete Prozesse frustrieren unsere besten Leute.“"
       # description: "Das Resultat: sinkende Motivation, stockende Innovation, steigender Wettbewerbsdruck."
     button:
       enable: false
