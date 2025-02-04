@@ -9,7 +9,7 @@ banner:
     link: "contact/"
 
 features:
-  - title: "Kommen Ihnen diese Herausforderungen bekannt vor?"
+  - title: "Dachten Sie auch schon?"
     image: "/images/challenges.jpg"
     content: ""
     # icon: fa-road-barrier
