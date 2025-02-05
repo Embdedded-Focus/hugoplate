@@ -8,7 +8,7 @@ endif
 
 ENVIRONMENT ?= production
 BASEURL ?= $(shell yq '.baseURL' < hugo.yaml)
-BASEDIR := $(shell echo $(BASEURL) | sed -E 's|^[^/]+://[^/]+(/?.*[^/])/*$$|\1|')
+BASEDIR := $(shell echo $(BASEURL) | sed -E 's|^[^/]+://[^/]+/?([^/]*)?.*$$|\1|')
 
 all:
 	@echo "Please choose a target manually."
