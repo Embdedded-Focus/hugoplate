@@ -89,6 +89,39 @@
   {{ end }}
   <!-- /Features -->
 
+  <!-- First Call to Action -->
+
+  {{ with site.GetPage "sections/call-to-action" }}
+    {{ with .Params }}
+      {{ if .enable }}
+        <section class="section pt-8 pb-2">
+          <div class="container">
+            <div class="row">
+              <div class="md:col-10 lg:col-8 xl:col-6 mx-auto mb-12 text-center">
+                <h2 class="mb-4">{{ .title | markdownify }}</h2>
+                <p>{{ .description | markdownify }}</p>
+                {{ with .button }}
+                  {{ if .enable }}
+                    <div class="mt-9">
+                      <a
+                        class="btn btn-primary"
+                        href="{{ .link | relLangURL | absURL }}">
+                        {{ .label }}
+                        <i class="fa fa-arrow-right pl-2"></i>
+                      </a>
+                    </div>
+                  {{ end }}
+                {{ end }}
+              </div>
+            </div>
+          </div>
+        </section>
+      {{ end }}
+    {{ end }}
+  {{ end }}
+
+  <!-- /First Call to Action -->
+
   <!-- Testimonials -->
   {{ with site.GetPage "sections/testimonial" }}
     {{ if .Params.enable }}
