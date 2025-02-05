@@ -9,7 +9,7 @@ banner:
     link: "contact/"
 
 features:
-  - title: "Dachten Sie auch schon?"
+  - title: "Dachten Sie schon mal ..."
     image: "/images/challenges.jpg"
     content: ""
     # icon: fa-road-barrier
