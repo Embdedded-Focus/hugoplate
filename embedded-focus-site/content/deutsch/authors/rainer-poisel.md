@@ -1,8 +1,9 @@
 ---
 title: Rainer Poisel
 email: johndoe@email.com
-image: "/images/avatar.png"
+image: "/images/rpoisel.png"
 description: this is meta description
+salutation: "Guten Tag"
 social:
   - name: github
     icon: fa-brands fa-github
@@ -12,5 +13,4 @@ social:
     icon: fa-brands fa-linkedin
     link: https://linkedin.com
 ---
-
-lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostr navigation et dolore magna aliqua.
+Ich verfüge über mehr als 20 Jahre Erfahrung in der Embedded Software Entwicklung. Mit der Automatisierung von (Teil-)Aufgaben beschäftige ich mich auch schon lange.

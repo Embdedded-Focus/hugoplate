@@ -122,6 +122,27 @@
 
   <!-- /First Call to Action -->
 
+  <!-- Featured Authors -->
+
+  {{ range $i, $e := .Params.featured_authors }}
+    {{ with site.GetPage (printf "authors/%s" $e) }}
+      <section class="section pt-8 pb-6">
+        <div class="container">
+          <div class="row">
+            <div class="md:col-10 lg:col-8 xl:col-6 mx-auto mb-12 text-center">
+              <h2 class="mb-4">{{ .Params.salutation }}, mein Name ist <br />{{ .Params.title }}.</h2>
+              <p>
+                {{ .Content }}
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+    {{ end }}
+  {{ end }}
+
+  <!-- /Featured Authors -->
+
   <!-- Testimonials -->
   {{ with site.GetPage "sections/testimonial" }}
     {{ if .Params.enable }}

@@ -75,4 +75,7 @@ features:
         auditsichere Reports auf Knopfdruck.
     button:
       enable: false
+
+featured_authors:
+  - "rainer-poisel"
 ---
