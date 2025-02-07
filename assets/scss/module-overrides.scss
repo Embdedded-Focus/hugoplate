@@ -41,7 +41,7 @@
 
 // accordion
 .accordion {
-  @apply bg-transparent dark:bg-transparent mb-6 overflow-hidden rounded-lg border;
+  @apply bg-transparent dark:bg-transparent mb-6 overflow-hidden border-t-transparent border-l-transparent border-r-transparent border-b-gray-300;
   &-header {
     @apply text-dark dark:text-darkmode-dark;
   }
