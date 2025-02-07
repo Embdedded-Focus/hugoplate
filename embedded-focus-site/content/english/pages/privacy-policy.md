@@ -1,33 +1,39 @@
 ---
-title: "Privacy"
-# meta title
+title: "Privacy Notice"
 meta_title: ""
-# meta description
-description: "This is meta description"
-# save as draft
+description: "Information Duty Statement"
 draft: false
 ---
 
-#### Responsibility of Contributors
+# Information Duty Statement
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Purus, donec nunc eros, ullamcorper id feugiat quisque aliquam sagittis. Sem turpis sed viverra massa gravida pharetra. Non dui dolor potenti eu dignissim fusce. Ultrices amet, in curabitur a arcu a lectus morbi id. Iaculis erat sagittis in tortor cursus. Molestie urna eu tortor, erat scelerisque eget. Nunc hendrerit sed interdum lacus. Lorem quis viverra sed
+## Privacy Notice
 
-pretium, aliquam sit. Praesent elementum magna amet, tincidunt eros, nibh in leo. Malesuada purus, lacus, at aliquam suspendisse tempus. Quis tempus amet, velit nascetur sollicitudin. At sollicitudin eget amet in. Eu velit nascetur sollicitudin erhdfvssfvrgss eget viverra nec elementum. Lacus, facilisis tristique lectus in.
+In the following privacy policy, we inform you about the most important aspects of data processing on our website. We collect and process personal data solely based on legal provisions (General Data Protection Regulation, Telecommunications Act 2003).
 
-#### Gathering of Personal Information
+Whenever you, as a user, access or visit our website, your IP address, the start, and the start and end of your session are recorded. This is technically necessary and thus constitutes a legitimate interest within the meaning of Art. 6 para. 1 lit. f GDPR.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Purus, donec nunc eros, ullamcorper id feugiat quisque aliquam sagittis. Sem turpis sed viverra massa gravida pharetra. Non dui dolor potenti eu dignissim fusce. Ultrices amet, in curabitur a arcu a lectus morbi id. Iaculis erat sagittis in tortor cursus. Molestie urna eu tortor, erat scelerisque eget. Nunc hendrerit sed interdum lacus. Lorem quis viverra sed
+## Contacting Us
 
-#### Protection of Personal- Information
+If you contact us via our contact form on our website or by email, the data you provide will be stored for six months for the purpose of processing your request and for any follow-up questions. Your data will not be shared without your consent.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Purus, donec nunc eros, ullamcorper id feugiat quisque aliquam sagittis. Sem turpis sed viverra massa gravida pharetra. Non dui dolor potenti eu dignissim fusce. Ultrices amet, in curabitur a arcu a lectus morbi id. Iaculis erat sagittis in tortor cursus.
+## Your Rights as a Data Subject
 
-Molestie urna eu tortor, erat scelerisque eget. Nunc hendrerit sed interdum lacus. Lorem quis viverra sed
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Purus, donec nunc eros, ullamcorper id feugiat
+As a data subject, you have the following rights concerning your data stored with us:
 
-#### Privacy Policy Changes
+- Right to access
+- Right to erasure
+- Right to rectification
+- Right to data portability
+- Right to withdraw consent and object to data processing
+- Right to restriction of processing
 
-1. Sll the Themefisher items are designed to be with the latest , We check all
-2. comments that threaten or harm the reputation of any person or organization
-3. personal information including, but limited to, email addresses, telephone numbers
-4. Any Update come in The technology Customer will get automatic Notification.
+If you suspect that the processing of your data violates data protection laws, you have the right to file a complaint with us (hello@embedded-focus.com) or with the Data Protection Authority.
+
+## Contact Information
+
+**Website Operator**: Dipl.-Ing. (FH) Mag. Rainer Poisel  
+**Phone Number**: +43 676 432 1736  
+**Email**: hello@embedded-focus.com  
+
+**Source**: English translation of [Datenschutzgenerator Österreich DSGVO](https://www.fairesrecht.at/kostenlos-datenschutzerklaerung-erstellen-generator.php)
