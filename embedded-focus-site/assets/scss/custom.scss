@@ -6,3 +6,9 @@ code {
 blockquote {
   @apply mt-0 mb-0 pt-0 pb-0 #{!important};
 }
+
+.accordion-content {
+  h3, h4, h5, h6, p {
+    @apply pt-2 pb-2;
+  }
+}
