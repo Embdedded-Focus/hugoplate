@@ -2,7 +2,7 @@
 enable: true
 title: "Bereit für den nächsten Schritt?"
 # image: "/images/call-to-action.png"
-description: "Schreiben Sie mir Ihre größte Herausforderung - Lassen Sie uns unverbindlich darüber sprechen und die beste Lösung finden!"
+description: "Schreiben Sie mir Ihre größte Herausforderung - Lassen Sie uns unverbindlich darüber sprechen und gemeinsam die beste Lösung finden!"
 button:
   enable: true
   label: "Kontakt"
