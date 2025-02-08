@@ -40,7 +40,7 @@ features:
     # - "Nachweise über Konformität mit EU Sicherheitsvorgabe werden nicht mehr händisch erstellt, sondern landen automatisch im Ticketsystem."
     # - "Morgens mit Vollgas ins Büro: endlich wieder das Gefühl haben bei der Produktentwicklung etwas bewirken zu können."
     - "Der Cyber Resilience Act als Sprungbrett: Automatisierte Nachweise, schnellere Prozesse – und endlich wieder Raum für echte Innovation."
-    - "Builds werden CI/CD-integriert ausgeführt. Schluss mit Langeweile: endlich bleibt Zeit für abwechslungsreiche Tätigkeiten."
+    - "Ihre Embedded-Software wird jetzt konsistent und reproduzierbar durch automatisierte Build-Pipelines erstellt."
     - "Das durch die Automatisierung gewonnene Sicherheitsnetz macht mutig: Innovation fühlt sich nicht mehr riskant, sondern befreiend an."  #  – auch kühne Ideen werden sicher umgesetzt.
     - "Das Bild dreht sich: es kommen wieder Bewerbungen, weil sich herumgesprochen hat, wieviel Freude die Arbeit bereitet."
     # - "Die modernen Prozesse machen den Kopf frei für echte Innovation. Plötzlich sind Ideen nicht mehr ein Risiko, sondern ein Wettbewerbsvorteil."
