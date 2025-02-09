@@ -70,7 +70,7 @@ features:
         Die Verwaltung von Produktbestandteilen, Firmware-Images und Entwicklungswerkzeugen erfolgt über leistungsfähige Repository-Manager wie Artifactory, Nexus oder [Pulp](https://pulpproject.org/). Dadurch wird eine sichere Versionierung und Reproduzierbarkeit aller ausgelieferten Softwarekomponenten sichergestellt.
 
         **Automatisierte Builds**  
-        Mit CMake, Bazel oder Meson optimiere ich den Build-Prozess für komplexe Embedded-Projekte, reduziere Kompilierzeiten und stelle sicher, dass Abhängigkeiten effizient verwaltet werden. Durch automatisierte CI/CD-Workflows mit GitLab CI/CD, Jenkins oder Buildkite werden Builds kontinuierlich und reproduzierbar ausgeführt, sodass Fehler frühzeitig erkannt werden.
+        Mit CMake, Bazel oder Meson optimiere ich den Build-Prozess für komplexe Embedded-Projekte, reduziere Kompilierzeiten und stelle sicher, dass Abhängigkeiten effizient verwaltet werden. Durch automatisierte CI/CD-Workflows mit GitLab CI/CD, GitHub Actions oder Jenkins werden Builds kontinuierlich und reproduzierbar ausgeführt, sodass Fehler frühzeitig erkannt werden.
 
         **Qualitätssicherung und Testautomatisierung**  
         Implementierung von Unit-, Integrations- und Systemtests (Hardware-in-the-Loop-Tests mit pytest und labgrid) für Embedded Softwaresysteme und statische Code-Analyse passend zur zum Einsatz kommenden Technologie.
@@ -121,7 +121,7 @@ features:
         Moderne Embedded-Systeme stellen hohe Anforderungen an Performance, Sicherheit und Skalierbarkeit. Ich entwickle maßgeschneiderte Softwarelösungen für Embedded-, IoT- und industrielle Systeme und unterstütze Ihr Unternehmen mit skalierbaren, robusten und normenkonformen Lösungen.
 
         **System-Software & Infrastruktur für (I)IoT**  
-        IoT- und Industrie 4.0-Anwendungen erfordern leistungsfähige Server-Dienste, Laufzeitsysteme für SPS-Applikationen und Backends für verteilte Systeme. Ich entwickle skalierbare Client-Server-Architekturen, Cloud-Anbindungen und Edge-Computing-Lösungen, die sich effizient betreiben lassen. Durch meine iSAQB© CPSA-F Zertifizierung stelle ich sicher, dass Architekturen strukturiert, erweiterbar und langfristig wartbar bleiben.
+        IoT- und Industrie 4.0-Anwendungen erfordern leistungsfähige Server-Dienste, Laufzeitsysteme für SPS-Applikationen und Backends für verteilte Systeme. Ich entwickle skalierbare Client-Server-Architekturen, Cloud-Anbindungen und Edge-Computing-Lösungen, die sich effizient betreiben lassen. Meine iSAQB© CPSA-F Zertifizierung bildet den formalen Nachweis meines tiefen Verständnisses über den Themenkomplex "Softwarearchitektur".
 
         **Low-Level-Software für Bare-Metal & Embedded Linux**  
         Echtzeitfähigkeit und Hardware-nahes Design sind essenziell für Mikrocontroller- und Embedded-Linux-Anwendungen. Ich entwickle Firmware, Treiber und Echtzeitsysteme, die sicher und performant laufen – von Bootloader-Optimierung bis zu gerätespezifischen Treibern.
