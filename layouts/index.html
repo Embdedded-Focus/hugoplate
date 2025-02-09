@@ -33,6 +33,24 @@
   {{ end }}
   <!-- /Banner -->
 
+  <!-- Customers -->
+  {{ with .Params.customers }}
+    <section class="pb-6">
+      <div class="container mx-auto px-4">
+        <div class="flex flex-col items-center text-center">
+          <div class="grid grid-cols-1 md:grid-cols-{{ len . }} gap-6 max-w-md">
+            {{ range . }}
+            <div class="w-full max-w-64 place-items-center">
+              {{ partial "image" (dict "Src" .image "Alt" .name "DisplayXL" "520x" "DisplayLG" "425x" "DisplayMD" "360x") }}
+            </div>
+            {{ end }}
+          </div>
+        </div>
+      </div>
+    </section>
+  {{ end }}
+  <!-- /Customers -->
+
   <!-- Features -->
   {{ range $i, $e := .Params.features }}
     <section class="section-sm pt-8 pb-8 {{ if (modBool $i 2) }}bg-gradient{{ end }}">
