@@ -33,7 +33,7 @@ features:
 
 - title: "Dabei helfe ich Unternehmen"
   image: "/images/success.jpg"
-  content: "Denn die Wahrheit ist: das Nummer 1 Risiko im globalen Wettbewerb ins Hintertreffen zu gelangen, ist fehlende Innovationskraft. Wir können uns Produktivitätsbremsen wie unsichere Prozesse oder fehlende Automatisierung nicht weiter leisten. Wie wäre es, ..."
+  content: "Denn die Wahrheit ist: das Nummer 1 Risiko im globalen Wettbewerb ist fehlende Innovationskraft. Wir können uns Produktivitätsbremsen wie unsichere Prozesse oder fehlende Automatisierung nicht weiter leisten. Wie wäre es, ..."
   # icon: fa-chart-line
   # padding: 8
   bulletpoints:
