@@ -4,11 +4,9 @@
     <section class="section pt-10 pb-6">
       <div class="container">
         <div class="row justify-center">
-          <div class="mb-8 text-center">
-            <div class="mb-6">
-                <p class="text-h5 lg:text-h3">{{ .content | markdownify }}</p>
-            </div>
-            <h1 class="mb-4 text-h3 lg:text-h1">
+          <div class="text-center">
+            <p class="text-h5 lg:text-h3">{{ .content | markdownify }}</p>
+            <h1 class="text-h3 lg:text-h1 pt-4 pb-4">
               {{ .slogan | markdownify }}
             </h1>
             {{ with .button }}
