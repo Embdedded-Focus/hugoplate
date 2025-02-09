@@ -23,19 +23,16 @@ features:
     button:
       enable: false
 
-  - title: "Hervorheben im Wettbewerb"
-    # Wie würde die Zielgruppe die Lösungen der Probleme beschreiben?
-    # Wie fühlt sich das für meine Kunden an, wenn meine Lösungen umgesetzt sind?
-    # Welche weiteren Probleme ergeben sich durch die Lösungen?
+  - title: "Dabei helfe ich Unternehmen"
     image: "/images/success.jpg"
-    content: "Unternehmen, die mich um Hilfe bitten, stehen oft vor denselben, zuvor genannten Herausforderungen. Ich helfe ihnen, Hürden fachlich, pragmatisch und partnerschaftlich zu überwinden und Lösungen zu entwickeln."
+    content: "Denn die Wahrheit ist: das Nummer 1 Risiko im globalen Wettbewerb ins Hintertreffen zu gelangen, ist fehlende Innovationskraft. Wir können uns Produktivitätsbremsen wie unsichere Prozesse oder fehlende Automatisierung nicht weiter leisten. Wie wäre es, ..."
     # icon: fa-chart-line
     # padding: 8
     bulletpoints:
-    - "Der Cyber Resilience Act als Sprungbrett: Automatisierte Nachweise, schnellere Prozesse – und endlich wieder Raum für echte Innovation."
-    - "Ihre Embedded-Software wird jetzt konsistent und reproduzierbar durch automatisierte Build-Pipelines erstellt."
-    - "Das durch die Automatisierung gewonnene Sicherheitsnetz macht mutig: Innovation fühlt sich nicht mehr riskant, sondern befreiend an."  #  – auch kühne Ideen werden sicher umgesetzt.
-    - "Das Bild dreht sich: es kommen wieder Bewerbungen, weil sich herumgesprochen hat, wieviel Freude die Arbeit bereitet."
+    - "Die IEC 62443 oder den Cyber Resilience Act (CRA) als Sprungbrett zu sehen: Automatisierte Nachweise, schnellere Prozesse – und endlich wieder Raum für echte Innovation."
+    - "Wenn ihre Embedded-Software jetzt konsistent und reproduzierbar durch automatisierte Build-Pipelines erstellt wird."
+    - "Wenn das durch die Automatisierung gewonnene Sicherheitsnetz mutig macht: Innovation sich nicht mehr riskant, sondern befreiend anfühlt."
+    - "Wenn sich das Bild dreht: wieder Bewerbungen kommen, weil sich herumgesprochen hat, wieviel Freude die Arbeit bereitet."
     button:
       enable: false
 
