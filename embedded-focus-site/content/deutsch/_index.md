@@ -8,6 +8,14 @@ banner:
     label: "Kontakt"
     link: "contact/"
 
+customers:
+- image: "/images/customers/wago.svg"
+  name: "WAGO"
+- image: "/images/customers/oebb-ts.svg"
+  name: "OeBB Train Tech"
+- image: "/images/customers/haag.cc.svg"
+  name: "haag embedded systems und it consulting GmbH"
+
 features:
 - title: "Dachten Sie schon mal ..."
   image: "/images/challenges.jpg"
