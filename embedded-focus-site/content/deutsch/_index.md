@@ -17,7 +17,7 @@ customers:
   name: "haag embedded systems und it consulting GmbH"
 
 features:
-- title: "Dachten Sie schon einmal ..."
+- title: "Dachten Sie schon einmal&nbsp;..."
   image: "/images/challenges.jpg"
   content: ""
   # icon: fa-road-barrier
