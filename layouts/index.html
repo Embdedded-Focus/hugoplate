@@ -32,24 +32,6 @@
   {{ end }}
   <!-- /Banner -->
 
-  <!-- Customers -->
-  {{ with .Params.customers }}
-    <section class="pb-6">
-      <div class="container mx-auto px-4">
-        <div class="flex flex-col items-center text-center">
-          <div class="flex flex-wrap md:flex-nowrap justify-center gap-6 mx-auto">
-            {{ range . }}
-              <div class="w-full max-w-32 sm:max-w-40 md:max-w-48 lg:max-w-64 flex items-center justify-center">
-                {{ partial "image" (dict "Src" .image "Alt" .name) }}
-              </div>
-            {{ end }}
-          </div>
-        </div>
-      </div>
-    </section>
-  {{ end }}
-  <!-- /Customers -->
-
   <!-- Features -->
   {{ range $i, $e := .Params.features }}
     <section class="section-sm pt-8 pb-8 {{ if (modBool $i 2) }}bg-gradient{{ end }}">
@@ -159,6 +141,30 @@
   {{ end }}
 
   <!-- /Featured Authors -->
+
+  <!-- Customers -->
+  {{ with .Params.customers }}
+    <section class="section pt-10 pb-6">
+      <div class="container mx-auto px-4">
+        <div class="row">
+          <div class="md:col-10 lg:col-8 xl:col-6 mx-auto mb-8 text-center">
+            <h2 class="mb-4">{{ .title | markdownify }}</h2>
+            <p>{{ .description | markdownify }}</p>
+          </div>
+          <div class="flex flex-col items-center text-center mb-12">
+            <div class="flex flex-wrap md:flex-nowrap justify-center gap-6 mx-auto">
+              {{ range .logos }}
+                <div class="w-full max-w-32 sm:max-w-40 md:max-w-48 lg:max-w-64 flex items-center justify-center">
+                  {{ partial "image" (dict "Src" .image "Alt" .name) }}
+                </div>
+              {{ end }}
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  {{ end }}
+  <!-- /Customers -->
 
   <!-- Testimonials -->
   {{ with site.GetPage "sections/testimonial" }}

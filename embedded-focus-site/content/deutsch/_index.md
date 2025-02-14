@@ -10,12 +10,15 @@ banner:
     link: "contact/"
 
 customers:
-- image: "/images/customers/wago.svg"
-  name: "WAGO"
-- image: "/images/customers/oebb-ts.svg"
-  name: "OeBB Train Tech"
-- image: "/images/customers/haag.cc.svg"
-  name: "haag embedded systems und it consulting GmbH"
+  title: "Meine Kunden"
+  description: "Die Zusammenarbeit mit meinen Kunden zeichnet sich durch Partnerschaftlichkeit und Verlässlichkeit aus.  Mein umfassendes DevSecOps-Know-how führt zu praxisbewährten Lösungen, die einen langfristigen Mehrwert schaffen."
+  logos:
+  - image: "/images/customers/wago.svg"
+    name: "WAGO"
+  - image: "/images/customers/oebb-ts.svg"
+    name: "OeBB Train Tech"
+  - image: "/images/customers/haag.cc.svg"
+    name: "haag embedded systems und it consulting GmbH"
 
 features:
 - title: "Dachten Sie schon einmal&nbsp;..."
