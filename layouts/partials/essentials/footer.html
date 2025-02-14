@@ -6,7 +6,7 @@
         <a
           class="navbar-brand inline-block"
           href="{{ site.Home.RelPermalink }}">
-          {{ partial "logo" }}
+          {{ partial "image" (dict "Src" site.Params.logo "Alt" site.Params.logo_text "Webp" site.Params.logo_webp "Class" "w-96") }}
         </a>
       </div>
       <div class="lg:col-6 mb-8 text-center lg:mb-0">
