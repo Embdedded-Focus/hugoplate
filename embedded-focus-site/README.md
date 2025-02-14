@@ -1,5 +1,11 @@
 # Color Palette
 
+- Dark Blue: #010326ff
+- Darker Blue: #1f80a6ff
+- Light Blue: #24a3bfff
+- Orange: #f27f1bff
+- Darker Orange: #f25c05ff
+
 ## Playground
 
 URL: https://colorkit.co/palette/041e42-b2cae4-f0f0ee-bab49e-b26801-008080-d4af37-ff7f50/
