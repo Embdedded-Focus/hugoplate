@@ -52,22 +52,24 @@
             <h2 class="mb-4">
               {{ .title | markdownify }}
             </h2>
-            <p class="mb-8 text-lg">
-              {{ .content | markdownify }}
-            </p>
-            {{ if .bulletpoints }}
-            <ul>
-              {{ range .bulletpoints }}
-                {{ if $e.icon }}
-                  <li class="relative mb-4 pl-{{ $e.padding | default "6" }}">
-                    <i class="fa {{ $e.icon | default "fa-check" }} absolute left-0 top-1.5"></i>
-                {{ else }}
-                  <li class="relative mb-4">
+            <div class="features">
+              <div class="xs:text-2xl lg:text-lg">
+                {{ .content | markdownify }}
+              </div>
+              {{ if .bulletpoints }}
+              <ul>
+                {{ range .bulletpoints }}
+                  {{ if $e.icon }}
+                    <li class="relative mb-4 pl-{{ $e.padding | default "6" }}">
+                      <i class="fa {{ $e.icon | default "fa-check" }} absolute left-0 top-1.5"></i>
+                  {{ else }}
+                    <li class="relative mb-4">
+                  {{ end }}
+                      {{ . | markdownify }}
+                    </li>
                 {{ end }}
-                  {{ . | markdownify }}
-                  </li>
-              {{ end }}
-            </ul>
+              </ul>
+            </div>
             {{ else }}
               {{ range .accordions }}
                 {{ partial "accordion" (dict "Title" .title "Content" .content) }}
