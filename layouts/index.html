@@ -43,7 +43,7 @@
               md:order-2
             {{ end }}
             md:col-5">
-            {{ partial "image" (dict "Src" .image "Alt" "feature image" "DisplayXL" "520x" "DisplayLG" "425x" "DisplayMD" "360x") }}
+            {{ partial "image" (dict "Src" .image "Alt" "feature image") }}
           </div>
           <div
             class="{{ if not (modBool $i 2) }}
@@ -91,11 +91,10 @@
   <!-- /Features -->
 
   <!-- First Call to Action -->
-
   {{ with site.GetPage "sections/call-to-action" }}
     {{ with .Params }}
       {{ if .enable }}
-        <section class="section pt-8 pb-2">
+        <section class="section pt-10 pb-6">
           <div class="container">
             <div class="row">
               <div class="md:col-10 lg:col-8 xl:col-6 mx-auto mb-12 text-center">
@@ -120,14 +119,12 @@
       {{ end }}
     {{ end }}
   {{ end }}
-
   <!-- /First Call to Action -->
 
   <!-- Featured Authors -->
-
   {{ range $i, $e := .Params.featured_authors }}
     {{ with site.GetPage (printf "authors/%s" $e) }}
-      <section class="section pt-8 pb-6">
+      <section class="section pt-10 pb-6">
         <div class="container">
           <div class="row">
             <div class="md:col-10 lg:col-8 xl:col-6 mx-auto mb-12 text-center">
@@ -141,7 +138,6 @@
       </section>
     {{ end }}
   {{ end }}
-
   <!-- /Featured Authors -->
 
   <!-- Customers -->
@@ -171,7 +167,7 @@
   <!-- Testimonials -->
   {{ with site.GetPage "sections/testimonial" }}
     {{ if .Params.enable }}
-      <section class="section pt-4">
+      <section class="section pt-10">
         <div class="container">
           <div class="row">
             <div class="md:col-10 lg:col-8 xl:col-6 mx-auto mb-12 text-center">
