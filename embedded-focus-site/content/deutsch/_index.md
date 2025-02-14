@@ -34,14 +34,17 @@ features:
 
 - title: "Dabei helfe ich Unternehmen"
   image: "/images/success.jpg"
-  content: "Denn die Wahrheit ist: das Nummer 1 Risiko im globalen Wettbewerb ist fehlende Innovationskraft. Wir können uns Produktivitätsbremsen wie unsichere Prozesse oder fehlende Automatisierung nicht weiter leisten. Wie wäre es, ..."
-  # icon: fa-chart-line
-  # padding: 8
+  content: |-
+    Denn die Wahrheit ist: das Nummer 1 Risiko im globalen Wettbewerb ist fehlende Innovationskraft. Wir können uns Produktivitätsbremsen wie unsichere Prozesse oder fehlende Automatisierung nicht weiter leisten.
+
+    ##### Wie wäre es, ...
+  icon: fa-circle-check
+  padding: 6
   bulletpoints:
-  - "Die IEC 62443 oder den Cyber Resilience Act (CRA) als Sprungbrett zu sehen: Automatisierte Nachweise, schnellere Prozesse – und endlich wieder Raum für echte Innovation."
-  - "Wenn ihre Embedded-Software jetzt konsistent und reproduzierbar durch automatisierte Build-Pipelines erstellt wird."
-  - "Wenn das durch die Automatisierung gewonnene Sicherheitsnetz mutig macht: Innovation sich nicht mehr riskant, sondern befreiend anfühlt."
-  - "Wenn sich das Bild dreht: wieder Bewerbungen kommen, weil sich herumgesprochen hat, wieviel Freude die Arbeit bereitet."
+  - "... die IEC 62443 oder den Cyber Resilience Act (CRA) als Sprungbrett zu sehen: Automatisierte Nachweise, schnellere Prozesse – und endlich wieder Raum für echte Innovation."
+  - "... wenn ihre Embedded-Software jetzt konsistent und reproduzierbar durch automatisierte Build-Pipelines erstellt wird."
+  - "... wenn das durch die Automatisierung gewonnene Sicherheitsnetz mutig macht: Innovation sich nicht mehr riskant, sondern befreiend anfühlt."
+  - "... wenn sich das Bild dreht: wieder Bewerbungen kommen, weil sich herumgesprochen hat, wieviel Freude die Arbeit bereitet."
   button:
     enable: false
 

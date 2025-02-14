@@ -12,3 +12,9 @@ blockquote {
     @apply pt-2 pb-2;
   }
 }
+
+.features {
+  h3, h4, h5, h6, p {
+    @apply pt-2 pb-4;
+  }
+}
