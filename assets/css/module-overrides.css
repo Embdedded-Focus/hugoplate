@@ -37,10 +37,13 @@
 
 /* accordion */
 .accordion {
-  @apply border-border bg-theme-light dark:border-darkmode-border dark:bg-darkmode-theme-light mb-6 overflow-hidden rounded-lg border;
+  @apply bg-transparent dark:bg-transparent mb-6 overflow-hidden border-t-transparent border-l-transparent border-r-transparent border-b-gray-300;
 }
 .accordion-header {
-  @apply text-dark dark:text-darkmode-dark;
+  @apply text-dark dark:text-darkmode-dark text-xl lg:text-2xl pl-0 #{!important};
+}
+.accordion-content {
+  @apply text-dark dark:text-darkmode-dark pl-0 pb-0 #{!important};
 }
 
 /* cookie consent */
