@@ -40,10 +40,10 @@
   @apply bg-transparent dark:bg-transparent mb-6 overflow-hidden border-t-transparent border-l-transparent border-r-transparent border-b-gray-300;
 }
 .accordion-header {
-  @apply text-dark dark:text-darkmode-dark text-xl lg:text-2xl pl-0 #{!important};
+  @apply text-dark dark:text-darkmode-dark text-xl lg:text-2xl pl-0;
 }
 .accordion-content {
-  @apply text-dark dark:text-darkmode-dark pl-0 pb-0 #{!important};
+  @apply text-dark dark:text-darkmode-dark pl-0 pb-0;
 }
 
 /* cookie consent */
