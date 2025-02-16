@@ -89,8 +89,6 @@ const setupTheme = () => {
     ].forEach(toggleComment);
 
     const includesFiles = [
-      "tailwind.config.js",
-      "postcss.config.js",
       "go.mod",
       "hugo.toml",
       "assets",
@@ -99,6 +97,7 @@ const setupTheme = () => {
       "content",
       "i18n",
       "static",
+      "tailwind-plugin",
     ];
 
     const folder = createNewFolder(rootFolder, "exampleSite");
