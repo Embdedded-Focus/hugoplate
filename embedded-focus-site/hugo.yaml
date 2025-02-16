@@ -103,12 +103,6 @@ params:
       lazy: true
     - link: plugins/glightbox/glightbox.css
       lazy: true
-    - link: plugins/font-awesome/v6/brands.css
-      lazy: true
-    - link: plugins/font-awesome/v6/solid.css
-      lazy: true
-    - link: plugins/font-awesome/v6/icons.css
-      lazy: true
     js:
     - link: js/search.js
       lazy: false
