@@ -127,11 +127,12 @@
       <section class="section pt-10 pb-6">
         <div class="container">
           <div class="row">
-            <div class="md:col-10 lg:col-8 xl:col-6 mx-auto mb-12 text-center">
-              <h2 class="mb-4">{{ .Params.salutation }}, mein Name ist <br />{{ .Params.title }}.</h2>
-              <p>
-                {{ .Content }}
-              </p>
+            <div class="md:col-10 lg:col-8 xl:col-6 mx-auto mb-12">
+              <h2 class="mb-4 text-center">{{ .Params.salutation }}, mein Name ist <br />{{ .Params.title }}.</h2>
+              <div class="grid grid-cols-1 md:grid-cols-4 gap-4 items-center">
+                {{ partial "image" (dict "Src" .Params.image "Context" .Page "Alt" .Title "Class" "mx-auto mb-6" "Size" "200x200") }}
+                <div class="md:col-span-3">{{ .Content }}</div>
+              </div>
             </div>
           </div>
         </div>
