@@ -32,6 +32,7 @@
       </span>
     </label>
   </div>
+{{ end }}
 
   <!-- theme switcher -->
   <script>
@@ -41,11 +42,9 @@
     if (window.matchMedia("(prefers-color-scheme: dark)").matches){darkMode = true}
     {{ end }}
 
+{{ if site.Params.theme_switcher }}
     if (localStorage.getItem("theme") === "dark"){darkMode = true}
     else if (localStorage.getItem("theme") === "light"){darkMode = false}
-
-    if (darkMode){document.documentElement.classList.add("dark")}
-    else {document.documentElement.classList.remove("dark")}
 
     // Show theme switcher after applying theme
     document.addEventListener("DOMContentLoaded", () => {
@@ -66,5 +65,8 @@
       // Now make the switcher visible
       themeSwitcherContainer.classList.remove('hidden');
     });
-  </script>
 {{ end }}
+
+    if (darkMode){document.documentElement.classList.add("dark")}
+    else {document.documentElement.classList.remove("dark")}
+  </script>
