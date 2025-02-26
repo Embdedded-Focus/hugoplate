@@ -131,7 +131,12 @@
               <h2 class="mb-4 text-center">{{ .Params.salutation }} <br />{{ .Params.title }}.</h2>
               <div class="grid grid-cols-1 md:grid-cols-4 gap-4 items-center">
                 {{ partial "image" (dict "Src" .Params.image "Context" .Page "Alt" .Title "Class" "mx-auto mb-6" "Size" "200x200") }}
-                <div class="md:col-span-3">{{ .Content }}</div>
+                <div class="md:col-span-3">
+                  <p>{{ .Content | markdownify }}</p>
+                  {{ if .Params.cv }}
+                  <p class="pt-4">{{ if .Params.role }}<b>{{ .Params.role }}</b> | {{ end }}<a href="{{ .Params.cv | relLangURL | absURL }}">{{ T "download_cv" }}</a></p>
+                  {{ end }}
+                </div>
               </div>
             </div>
           </div>
