@@ -1,0 +1,11 @@
+<div class="mt-4 text-center">
+  <a
+    class="btn btn-primary"
+    href="{{ (.Get "link") | relLangURL | absURL }}"
+    {{ if strings.HasPrefix (.Get "link") `http` }}
+      target="_blank" rel="noopener"
+    {{ end }}>
+    {{ (.Get "label") }}
+    <i class="fa fa-arrow-right pl-2"></i>
+  </a>
+</div>
