@@ -1,14 +1,18 @@
 {{ define "main" }}
   <section class="section-sm">
     <div class="container">
-      <div class="row justify-center">
-        <div class="md:col-10 lg:col-7">
-          {{ partial "image" (dict "Src" .Params.image "Context" .Page "Alt" .Title "Class" "mx-auto mb-6" "Size" "200x200") }}
+      <div class="row">
+        <div class="md:col-7 mx-auto mb-6">
+          {{ partial "image" (dict "Src" .Params.image "Context" .Page "Alt" .Title) }}
+        </div>
+        </div>
+        <div class="row">
+        <div class="md:col-10 lg:col-7 mx-auto">
           <h2 class="h3 mb-6 text-center">{{ .Title }}</h2>
           <div class="content text-left">{{ .Content }}</div>
-{{ if .Page.Params.Slogan }}
+          {{ if .Page.Params.Slogan }}
           <div class="content font-bold text-center">{{ .Page.Params.Slogan }}</div>
-{{ end }}
+          {{ end }}
         </div>
       </div>
     </div>
