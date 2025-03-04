@@ -121,31 +121,6 @@
   {{ end }}
   <!-- /First Call to Action -->
 
-  <!-- Featured Authors -->
-  {{ range $i, $e := .Params.featured_authors }}
-    {{ with site.GetPage (printf "authors/%s" $e) }}
-      <section class="section pt-10 pb-6">
-        <div class="container">
-          <div class="row">
-            <div class="md:col-10 lg:col-8 xl:col-8 mx-auto mb-12">
-              <h2 class="mb-4 text-center">{{ .Params.salutation }} <br />{{ .Params.title }}.</h2>
-              <div class="grid grid-cols-1 md:grid-cols-4 gap-4 items-center">
-                {{ partial "image" (dict "Src" .Params.image "Context" .Page "Alt" .Title "Class" "mx-auto mb-6" "Size" "200x200") }}
-                <div class="md:col-span-3">
-                  <p>{{ .Content | markdownify }}</p>
-                  {{ if .Params.cv }}
-                  <p class="pt-4">{{ if .Params.role }}<b>{{ .Params.role }}</b> | {{ end }}<a href="{{ .Params.cv | relLangURL | absURL }}">{{ T "download_cv" }}</a></p>
-                  {{ end }}
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-    {{ end }}
-  {{ end }}
-  <!-- /Featured Authors -->
-
   <!-- Customers -->
   {{ with .Params.customers }}
     <section class="section pt-10 pb-6">
