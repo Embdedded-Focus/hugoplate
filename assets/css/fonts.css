@@ -1,16 +1,16 @@
 @font-face {
-  font-family: 'Heebo';
+  font-family: 'Barlow';
   font-style: normal;
-  font-weight: 400;
+  font-weight: 500;
   font-display: swap;
-  src: url("/fonts/NGSpv5_NC0k9P_v6ZUCbLRAHxK1EiSyccg.ttf") format('truetype');
+  src: url("/fonts/7cHqv4kjgoGqM7E3_-gc4A.ttf") format('truetype');
 }
 @font-face {
-  font-family: 'Heebo';
+  font-family: 'Barlow';
   font-style: normal;
-  font-weight: 600;
+  font-weight: 700;
   font-display: swap;
-  src: url("/fonts/NGSpv5_NC0k9P_v6ZUCbLRAHxK1EVyuccg.ttf") format('truetype');
+  src: url("/fonts/7cHqv4kjgoGqM7E3t-4c4A.ttf") format('truetype');
 }
 
 @font-face {
