@@ -1,9 +1,5 @@
 <section class="section bg-theme-dark pt-16 pb-16">
   <div class="container text-center">
-    <div
-      class="">
-      <h1>{{ T (printf "%s" (lower .Title)) | default .Title | title }}</h1>
-      {{ partial "components/breadcrumb" (dict "Context" . "Class" "mt-6") }}
-    </div>
+    <h1>{{ T (printf "%s" (lower .Title)) | default .Title | title }}</h1>
   </div>
 </section>
