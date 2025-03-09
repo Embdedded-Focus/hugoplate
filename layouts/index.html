@@ -160,8 +160,8 @@
                     <div class="swiper-slide">
                       <div
                         class="swiper-inner h-100 bg-theme-light dark:bg-darkmode-theme-light px-7 py-6">
-                        <div class="badge bg-secondary py-2 px-4 dark:text-white flex items-center">
-                          <h3 class="text-h4">€ 500<br><span class="small">bei 30 Mitarbeitern</span></h3>
+                        <div class="badge inline-flex -rotate-3 -ml-[15px] -mt-[35px] mb-[30px] bg-secondary py-2 px-4 dark:text-white flex items-center">
+                          <h3 class="text-h4 font-medium">{{ .first_line }}<br><span class="text-[.8em]">{{ .second_line }}</span></h3>
                         </div>
                         <blockquote class="mt-8">
                           {{ .content | markdownify }}
