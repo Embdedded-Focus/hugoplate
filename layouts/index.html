@@ -1,12 +1,12 @@
 {{ define "main" }}
   <!-- Banner -->
   {{ with .Params.banner }}
-    <section class="section pt-16 pb-16 bg-theme-dark">
+    <section class="section pt-16 pb-16 bg-theme-dark text-light">
       <div class="container">
         <div class="row justify-center">
           <div class="text-center">
             <p class="text-h5 lg:text-h3">{{ .content | markdownify }}</p>
-            <h1 class="text-h3 lg:text-h1 pt-4 pb-4">
+            <h1 class="text-h3 lg:text-h1 pt-4 pb-4 text-light">
               {{ .slogan | markdownify }}
             </h1>
             <p class="text-lg">{{ .quote | markdownify }}</p>
@@ -34,7 +34,7 @@
 
   <!-- Features -->
   {{ range $i, $e := .Params.features }}
-    <section class="section-sm pt-10 pb-10 border-b-2 border-primary bg-theme-light {{ if (modBool $i 2) }}{{ end }}">
+    <section class="section-sm pt-10 pb-10 border-b-2 border-primary {{ if (modBool $i 2) }}{{ end }}">
       <div class="container">
         <div class="row items-stetch justify-between">
           <div
@@ -88,17 +88,17 @@
   {{ with site.GetPage "sections/call-to-action" }}
     {{ with .Params }}
       {{ if .enable }}
-        <section class="section bg-theme-dark pt-16 pb-16">
+        <section class="section bg-theme-dark text-light pt-16 pb-16">
           <div class="container">
             <div class="row">
               <div class="md:col-10 lg:col-8 xl:col-6 mx-auto text-center">
-                <h2 class="mb-4">{{ .title | markdownify }}</h2>
+                <h2 class="mb-4 text-light">{{ .title | markdownify }}</h2>
                 <p>{{ .description | markdownify }}</p>
                 {{ with .button }}
                   {{ if .enable }}
                     <div class="mt-9">
                       <a
-                        class="btn btn-primary"
+                        class="btn btn-primary bg-theme-light text-primary"
                         href="{{ .link | relLangURL | absURL }}">
                         {{ .label }}
                         <i class="fa fa-arrow-right pl-2"></i>
@@ -117,7 +117,7 @@
 
   <!-- Customers -->
   {{ with .Params.customers }}
-    <section class="section bg-theme-light pt-16 pb-16">
+    <section class="section pt-16 pb-16">
       <div class="container mx-auto px-4">
         <div class="row">
           <div class="md:col-10 lg:col-8 xl:col-8 mx-auto mb-8 text-center">
@@ -146,10 +146,10 @@
         <div class="container">
           <div class="row">
             <div class="md:col-10 lg:col-8 xl:col-6 mx-auto mb-12 text-center">
-              <h2 class="mb-4">
+              <h2 class="mb-4 text-light">
                 {{ .Title | markdownify }}
               </h2>
-              <p>
+              <p class="text-light">
                 {{ .Params.description | markdownify }}
               </p>
             </div>
@@ -159,21 +159,21 @@
                   {{ range .Params.testimonials }}
                     <div class="swiper-slide">
                       <div
-                        class="swiper-inner h-100 bg-theme-light dark:bg-darkmode-theme-light px-7 py-6">
-                        <div class="badge inline-flex -rotate-3 -ml-[15px] -mt-[35px] mb-[30px] bg-secondary py-2 px-4 dark:text-white flex items-center">
+                        class="swiper-inner h-100 bg-theme-light px-7 py-6">
+                        <div class="badge inline-flex -rotate-3 -ml-[15px] -mt-[35px] mb-[30px] bg-secondary py-2 px-4 flex items-center">
                           <h3 class="text-h4 font-medium">{{ .first_line }}<br><span class="text-[.8em]">{{ .second_line }}</span></h3>
                         </div>
                         <blockquote class="mt-8">
                           {{ .content | markdownify }}
                           {{ if .more }}
                             <a
-                              class="text-gray-600"
+                              class="text-primary"
                               href="{{ .more | relLangURL }}">...{{ T "more" }}</a>
                           {{ end }}
                         </blockquote>
                         <div class="mt-8 flex items-center">
                           {{ if .avatar }}
-                            <div class="text-dark dark:text-white">
+                            <div class="text-dark">
                               {{ partial "image" (dict "Src" .avatar "Size" "50x50" "Class" "rounded-full" "Alt" .name) }}
                             </div>
                           {{ end }}
@@ -185,7 +185,7 @@
                                 {{ .name }}
                               {{ end }}
                             </h3>
-                            <p class="text-dark dark:text-white">
+                            <p class="text-dark">
                               {{ .designation | markdownify }}
                             </p>
                           </div>

@@ -1,5 +1,5 @@
 <header
-  class="header {{ if site.Params.navbar_fixed }}sticky top-0{{ end }} z-30">
+  class="header {{ if site.Params.navbar_fixed }}sticky top-0{{ end }} z-30 border-primary border-b bg-theme-light">
   <nav class="navbar container">
     <!-- logo -->
     <div class="order-0">
@@ -79,7 +79,7 @@
         {{ else }}
           <li class="nav-item">
             <a
-              class="nav-link uppercase {{ if $active }}active{{- end -}}"
+              class="nav-link uppercase hover:bg-primary hover:text-light p-4 pt-2 pb-2 {{ if $active }}active bg-primary text-light{{- end -}}"
               {{ if findRE `^http` .URL }}
                 target="_blank" rel="noopener"
               {{ end }}
@@ -126,7 +126,7 @@
         {{ end }}
       {{ end }}
 
-      {{ partial "components/language-switcher" (dict "Context" . "Class" "mr-5 pl-2 py-1 dark:bg-darkmode-theme-light rounded") }}
+      {{ partial "components/language-switcher" (dict "Context" . "Class" "mr-5 pl-2 py-1 dark:darkmode-light dark:bg-darkmode-theme-light") }}
       {{ partial "components/theme-switcher" (dict "Class" "mr-5") }}
 
 
