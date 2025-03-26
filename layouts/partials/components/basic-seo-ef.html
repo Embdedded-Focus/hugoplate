@@ -25,7 +25,7 @@
 
 <!-- meta canonical -->
 {{ with .Params.canonical }}
-  <link rel="canonical" href="{{ . }}" itemprop="url" />
+  <link rel="canonical" href="{{ . | absURL }}" itemprop="url" />
 {{ end }}
 
 
