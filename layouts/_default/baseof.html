@@ -1,10 +1,10 @@
 <!doctype html>
 <html
   itemscope
-  {{- if and (not site.Params.theme_switcher) (ne site.Params.theme_default "system") -}}
+  {{if and (not site.Params.theme_switcher) (ne site.Params.theme_default "system")}}
     class="{{- site.Params.theme_default -}}"
   {{- end -}}
-  lang="{{ site.LanguageCode | default `en-US` }}"
+  lang="{{ .Site.Language.LanguageName | lower }}"
   itemtype="http://schema.org/WebPage">
   <head>
     <!-- head (don't cache it) -->
