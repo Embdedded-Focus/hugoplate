@@ -14,8 +14,8 @@
           </h1>
           <ul class="mb-4">
             <li class="mr-4 inline-block">
-              {{ $authors := .Params.authors }}
-              {{ if eq (len .Params.authors) 1 }}
+              {{ $authors := or .Params.authors .Params.author }}
+              {{ if eq (len $authors) 1 }}
                 <i class="fa-solid fa-circle-user mr-2"></i>
               {{ else }}
                 <i class="fa-solid fa-users mr-2"></i>
