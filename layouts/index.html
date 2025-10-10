@@ -124,14 +124,16 @@
             <h2 class="mb-4">{{ .title | markdownify }}</h2>
             <p>{{ .description | markdownify }}</p>
           </div>
-          <div class="flex flex-col items-center text-center">
-            <div class="flex flex-wrap md:flex-nowrap justify-center gap-10 mx-auto">
-              {{ range .logos }}
-                <div class="w-full max-w-28 sm:max-w-36 flex items-center justify-center">
+        </div>
+        <div class="swiper customers-slider">
+          <div class="swiper-wrapper">
+            {{ range .logos }}
+              <div class="swiper-slide inline-flex justify-center items-center">
+                <div class="w-full max-w-36 sm:max-w-44">
                   {{ partial "image" (dict "Src" .image "Alt" .name) }}
                 </div>
-              {{ end }}
-            </div>
+              </div>
+            {{ end }}
           </div>
         </div>
       </div>

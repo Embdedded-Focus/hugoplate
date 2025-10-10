@@ -33,4 +33,22 @@
       },
     },
   });
+
+  new Swiper(".customers-slider", {
+    spaceBetween: 24,
+    loop: true,
+    centeredSlides: true,
+    autoplay: {
+      delay: 2500,
+      disableOnInteraction: false,
+    },
+    breakpoints: {
+      768: {
+        slidesPerView: 2,
+      },
+      992: {
+        slidesPerView: 3,
+      },
+    },
+  });
 })();
