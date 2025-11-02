@@ -26,5 +26,9 @@
     "prettier-plugin-go-template": "0.0.15",
     "prettier-plugin-tailwindcss": "^0.6.11",
     "tailwindcss": "^4.0.6"
+  },
+  "dependencies": {
+    "@anthropic-ai/claude-code": "^2.0.31",
+    "@google/gemini-cli": "^0.7.0"
   }
 }
