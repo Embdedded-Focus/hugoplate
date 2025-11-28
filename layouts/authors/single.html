@@ -21,7 +21,18 @@
           <div class="content mt-6 text-left">
             {{ .Content }}
           </div>
-          <ul class="social-icons ml-4 mt-10 text-center">
+          <ul class="social-icons text-center">
+            {{ if .Params.cv }}
+              <li>
+                <a
+                  href="/{{ .Params.cv }}"
+                  class="btn btn-primary"
+                  target="_blank"
+                  rel="noopener">
+                  CV
+                </a>
+              </li>
+            {{ end }}
             {{ range .Params.social }}
               <li>
                 <a
